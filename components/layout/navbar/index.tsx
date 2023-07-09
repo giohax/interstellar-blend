@@ -7,9 +7,9 @@ export default function Navbar() {
     return (
         <nav className="relative flex items-center justify-between bg-white p-4 dark:bg-black lg:px-6"> 
             <div className="flex justify-self-center md:w-1/3 md:justify-self-start">
-                <div className="md:mr-4">
+                <div className="md:mr-4 flex-shrink-0">
                     <Link href="/" aria-label="Go back home">
-                        <Image src="/interstellar-logo.jpg" alt="Logo" width={30} height={30} />
+                        <Image src="/interstellar-logo.jpg" alt="Logo" width={30} height={30} layout='fixed' />
                     </Link>
                 </div>
                 <ul className="hidden md:flex md:items-center">
