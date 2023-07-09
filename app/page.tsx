@@ -1,6 +1,18 @@
+'use client'
 import Image from 'next/image'
+import { useEffect } from 'react';
 
 export default function Home() {
+  useEffect(() => {
+    const cursor = document.createElement('div');
+    cursor.classList.add('cursor');
+    document.body.appendChild(cursor);
+
+    document.addEventListener('mousemove', (e) => {
+      cursor.style.top = e.pageY + 'px';
+      cursor.style.left = e.pageX + 'px';
+    });
+  }, []);
   return (
     <>
       <div className="fixed inset-0 flex items-center justify-center overflow-hidden">
