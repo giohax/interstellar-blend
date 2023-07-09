@@ -19,5 +19,5 @@
   transform: translate(-50%,-50%);
   z-index: 2100;
   pointer-events: none;
-  transition: opacity .5s, transform .5s, top .1s ease-in-out, left .1s ease-in-out;
+  transition: top .1s ease-out, left .1s ease-out;
 }

@@ -17,7 +17,7 @@ export default function Home() {
     <>
       <div className="fixed inset-0 flex items-center justify-center overflow-hidden">
         <video className="absolute inset-0 min-w-full min-h-full object-cover" autoPlay muted loop>
-          <source src="/videos/energy-radiating-4k.mp4" type="video/mp4" />
+          <source src="/videos/energy-radiating-standard.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="absolute inset-0 bg-black opacity-10"></div>
