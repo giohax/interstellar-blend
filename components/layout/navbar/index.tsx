@@ -14,17 +14,17 @@ export default function Navbar() {
                 </div>
                 <ul className="hidden md:flex md:items-center">
                     <li>
-                        <Link href={""} className="rounded-lg px-2 py-1 text-gray-800 hover:text-gray-500 dark:text-gray-200 dark:hover:text-red-500 font-vandiana text-lg">
+                        <Link href={""} className="px-2 py-1 text-gray-200 hover:bg-black hover:bg-opacity-50 font-vandiana font-bold text-lg">
                             Shop
                         </Link>
                     </li>
                     <li>
-                        <Link href={""} className="rounded-lg px-2 py-1 text-gray-800 hover:text-gray-500 dark:text-gray-200 dark:hover:text-red-500 font-vandiana text-lg">
+                        <Link href={""} className="px-2 py-1 text-gray-200 hover:bg-black hover:bg-opacity-50 font-vandiana font-bold text-lg">
                             Resources
                         </Link>
                     </li>
                     <li>
-                        <Link href={""} className="rounded-lg px-2 py-1 text-gray-800 hover:text-gray-500 dark:text-gray-200 dark:hover:text-red-500 font-vandiana text-lg">
+                        <Link href={""} className="px-2 py-1 text-gray-200 hover:bg-black hover:bg-opacity-50 font-vandiana font-bold text-lg">
                             Telegram
                         </Link>
                     </li>
