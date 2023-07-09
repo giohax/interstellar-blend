@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from 'next/image';
+import Search from "./search";
 
 export default function Navbar() {
     return (
@@ -27,6 +28,12 @@ export default function Navbar() {
                         </Link>
                     </li>
                 </ul>
+            </div>
+            <div className="hidden w-1/3 md:block">
+                <Search />
+            </div>
+            <div>
+                
             </div>
         </nav>
     )
