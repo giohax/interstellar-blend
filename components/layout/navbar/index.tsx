@@ -1,12 +1,16 @@
 import Link from "next/link";
 import Image from 'next/image';
 import Search from "./search";
-import CartIcon from "./icons/cart";
+import CartIcon from "../../icons/cart";
+import MobileMenu from "./mobile-menu";
 
 export default function Navbar() {
     return (
         <nav className="relative flex items-center justify-between p-4 lg:px-6 fixed z-10 bg-gradient-to-r-[15%] from-transparent to-gray-600"> 
-            <div className="flex justify-self-center md:w-1/3 md:justify-self-start">
+            <div className="block w-1/3 lg:hidden">
+                <MobileMenu />
+            </div>
+            <div className="hidden lg:flex justify-self-center md:w-1/3 md:justify-self-start">
                 <div className="md:mr-4 flex-shrink-0 cursor-pointer transition-all ease-in-out hover:scale-110">
                     <Link href="/" aria-label="Go back home">
                         <Image src="/interstellar-logo.jpg" alt="Logo" width={30} height={30} layout='fixed' />
@@ -30,7 +34,7 @@ export default function Navbar() {
                     </li>
                 </ul>
             </div>
-            <div className="hidden w-1/3 md:block">
+            <div className="hidden w-1/3 lg:block">
                 <Search />
             </div>
             <div className="flex w-1/3 justify-end cursor-pointer">

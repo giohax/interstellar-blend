@@ -1,4 +1,4 @@
-import SearchIcon from "./icons/search";
+import SearchIcon from "../../icons/search";
 
 export default function Search(){
     return (
