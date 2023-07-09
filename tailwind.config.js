@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      objectFit: {
+        cover: 'cover',
+      },
       fontFamily: {
         sans: ['var(--font-inter)'],
         'vandiana': ['Vandiana Platin', 'fallback-font', 'serif'],
@@ -16,6 +19,12 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+    },
+  },
+  variants: {
+    extend: {
+      // Other variants...
+      objectFit: ['responsive'],
     },
   },
   plugins: [],

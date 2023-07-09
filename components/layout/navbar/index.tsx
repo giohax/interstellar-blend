@@ -5,7 +5,7 @@ import CartIcon from "./icons/cart";
 
 export default function Navbar() {
     return (
-        <nav className="relative flex items-center justify-between bg-white p-4 dark:bg-black lg:px-6"> 
+        <nav className="relative flex items-center justify-between bg-white p-4 dark:bg-black lg:px-6 fixed z-10"> 
             <div className="flex justify-self-center md:w-1/3 md:justify-self-start">
                 <div className="md:mr-4 flex-shrink-0 cursor-pointer transition-all ease-in-out hover:scale-110">
                     <Link href="/" aria-label="Go back home">
