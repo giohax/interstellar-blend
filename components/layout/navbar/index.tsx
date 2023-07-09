@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
         <nav className="relative flex items-center justify-between bg-white p-4 dark:bg-black lg:px-6"> 
             <div className="flex justify-self-center md:w-1/3 md:justify-self-start">
-                <div className="md:mr-4 flex-shrink-0">
+                <div className="md:mr-4 flex-shrink-0 cursor-pointer">
                     <Link href="/" aria-label="Go back home">
                         <Image src="/interstellar-logo.jpg" alt="Logo" width={30} height={30} layout='fixed' />
                     </Link>
@@ -33,7 +33,7 @@ export default function Navbar() {
             <div className="hidden w-1/3 md:block">
                 <Search />
             </div>
-            <div className="flex w-1/3 justify-end">
+            <div className="flex w-1/3 justify-end cursor-pointer">
                 <CartIcon/>
             </div>
         </nav>
