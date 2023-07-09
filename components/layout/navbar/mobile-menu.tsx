@@ -1,6 +1,7 @@
 'use client'
+import CloseIcon from "@/components/icons/close";
 import MenuIcon from "@/components/icons/menu";
-import Search from "@/components/icons/search";
+import Search from './search';
 import { Dialog, Transition } from "@headlessui/react";
 import Link from "next/link";
 import { Fragment, useState } from "react";
@@ -42,30 +43,30 @@ export default function MobileMenu() {
                         leaveTo="translate-x-[-100%]"
                     >
                         <Dialog.Panel className="fixed bottom-0 left-0 right-0 top-0 flex h-full w-full flex-col bg-white pb-6 dark:bg-black">
-                    <div className="p-4">
-                        <button
-                        className="mb-4"
-                        onClick={closeMobileMenu}
-                        aria-label="Close mobile menu"
-                        data-testid="close-mobile-menu"
-                        >
-                            {/* <CloseIcon className="h-6" /> */}
-                        </button>
-                        <div className="mb-4 w-full">
-                            <Search />
+                        <div className="p-4">
+                            <button
+                                className="mb-4"
+                                onClick={closeMobileMenu}
+                                aria-label="Close mobile menu"
+                                data-testid="close-mobile-menu"
+                            >
+                                <CloseIcon className="h-6" />
+                            </button>
+                            <div className="mb-4 w-full">
+                                <Search />
+                            </div>
+                            <ul className="flex flex-col">
+                                <li>
+                                    <Link className="rounded-lg py-1 text-xl text-black transition-colors hover:text-gray-500 dark:text-white" href={""}>SHOP</Link>
+                                </li>
+                                <li>
+                                    <Link className="rounded-lg py-1 text-xl text-black transition-colors hover:text-gray-500 dark:text-white" href={""}>RESOURCES</Link>
+                                </li>
+                                <li>
+                                    <Link className="rounded-lg py-1 text-xl text-black transition-colors hover:text-gray-500 dark:text-white" href={""}>TELEGRAM</Link>
+                                </li>
+                            </ul>
                         </div>
-                        <ul className="flex flex-col">
-                            <li>
-                                <Link className="rounded-lg py-1 text-xl text-black transition-colors hover:text-gray-500 dark:text-white" href={""}>SHOP</Link>
-                            </li>
-                            <li>
-                                <Link className="rounded-lg py-1 text-xl text-black transition-colors hover:text-gray-500 dark:text-white" href={""}>RESOURCES</Link>
-                            </li>
-                            <li>
-                                <Link className="rounded-lg py-1 text-xl text-black transition-colors hover:text-gray-500 dark:text-white" href={""}>TELEGRAM</Link>
-                            </li>
-                        </ul>
-                    </div>
                         </Dialog.Panel>
                     </Transition.Child>
                 </Dialog>
