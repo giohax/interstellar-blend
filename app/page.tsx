@@ -9,8 +9,9 @@ export default function Home() {
           Your browser does not support the video tag.
         </video>
         <div className="absolute inset-0 bg-black opacity-10"></div>
-        <div className="absolute inset-0 flex items-center justify-center">
+        <div className="absolute inset-0 flex items-center justify-center flex-col">
           <h1 className="text-white text-6xl font-bold font-vandiana">INTERSTELLAR BLEND</h1>
+          <h2 className="text-white text-2xl font-bold font-vandiana">BECOME LIMITLESS WITH OUR PROPRIETARY HERBS</h2>
         </div>
       </div>
     </>
