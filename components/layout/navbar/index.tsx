@@ -34,7 +34,7 @@ export default function Navbar() {
                 <Search />
             </div>
             <div className="flex w-1/3 justify-end">
-                <CartIcon className="h-6" />
+                <CartIcon/>
             </div>
         </nav>
     )
