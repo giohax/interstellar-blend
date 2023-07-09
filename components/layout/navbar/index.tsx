@@ -32,8 +32,8 @@ export default function Navbar() {
             <div className="hidden w-1/3 md:block">
                 <Search />
             </div>
-            <div>
-                
+            <div className="flex w-1/3 justify-end">
+
             </div>
         </nav>
     )
