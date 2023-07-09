@@ -12,20 +12,20 @@ export default function Navbar() {
                         <Image src="/interstellar-logo.jpg" alt="Logo" width={30} height={30} layout='fixed' />
                     </Link>
                 </div>
-                <ul className="hidden md:flex md:items-center">
+                <ul className="hidden lg:flex lg:items-center">
                     <li>
-                        <Link href={""} className="px-2 py-1 text-gray-200 hover:bg-black hover:bg-opacity-50 font-vandiana font-bold text-lg">
-                            Shop
+                        <Link href={""} className="px-2 py-1 text-gray-200 hover:bg-black hover:bg-opacity-50 font-vandiana font-bold">
+                            SHOP
                         </Link>
                     </li>
                     <li>
-                        <Link href={""} className="px-2 py-1 text-gray-200 hover:bg-black hover:bg-opacity-50 font-vandiana font-bold text-lg">
-                            Resources
+                        <Link href={""} className="px-2 py-1 text-gray-200 hover:bg-black hover:bg-opacity-50 font-vandiana font-bold">
+                            RESOURCES
                         </Link>
                     </li>
                     <li>
-                        <Link href={""} className="px-2 py-1 text-gray-200 hover:bg-black hover:bg-opacity-50 font-vandiana font-bold text-lg">
-                            Telegram
+                        <Link href={""} className="px-2 py-1 text-gray-200 hover:bg-black hover:bg-opacity-50 font-vandiana font-bold">
+                            TELEGRAM
                         </Link>
                     </li>
                 </ul>

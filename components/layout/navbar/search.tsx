@@ -2,7 +2,7 @@ import SearchIcon from "./icons/search";
 
 export default function Search(){
     return (
-        <form className="relative m-0 flex w-full items-center border border-gray-200 bg-transparent p-0 dark:border-gray-500">
+        <form className="relative m-0 flex lg:w-full items-center border border-gray-200 bg-transparent p-0 dark:border-gray-500">
             <input
                 type="text"
                 name="search"
