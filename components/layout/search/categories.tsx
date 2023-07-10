@@ -14,7 +14,7 @@ function CategoriesList() {
     const categoryObjects = categories.map(category => {
         return {
             title: category,
-            path: `/${category.toLowerCase().replace(/ /g, '-')}`
+            path: `/search/${category.toLowerCase().replace(/ /g, '-')}`
         };
     });
     return <FilterList list={categoryObjects} title="Categories" />
