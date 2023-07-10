@@ -45,7 +45,13 @@ export default function Home() {
         </div>
         <style jsx>{`
           .custom-shadow {
-            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  // dark shadow for small screens
+          }
+
+          @media (min-width: 1024px) {
+            .custom-shadow {
+              text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);  // light shadow for large screens
+            }
           }
         `}</style>
 
