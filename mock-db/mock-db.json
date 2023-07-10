@@ -1,8 +1,8 @@
 [
     {
-      "handle": "product1",
+      "handle": "trinity",
       "featuredImage": { "url": "/images/trinity-thumbnail.jpeg" },
-      "title": "Product 1",
+      "title": "",
       "priceRange": {
         "maxVariantPrice": {
           "amount": "50",
@@ -11,9 +11,9 @@
       }
     },
     {
-      "handle": "product2",
-      "featuredImage": { "url": "/images/trinity-thumbnail.jpeg" },
-      "title": "product 2",
+      "handle": "ascendance",
+      "featuredImage": { "url": "/images/ascendance-thumbnail.jpeg" },
+      "title": "",
       "priceRange": {
         "maxVariantPrice": {
           "amount": "60",
@@ -22,15 +22,138 @@
       }
     },
     {
-      "handle": "product3",
-      "featuredImage": { "url": "/images/trinity-thumbnail.jpeg" },
-      "title": "Product 3",
+      "handle": "spaceborn",
+      "featuredImage": { "url": "/images/spaceborn-thumbnail.jpeg" },
+      "title": "",
       "priceRange": {
         "maxVariantPrice": {
           "amount": "70",
           "currencyCode": "USD"
         }
       }
+    },
+    {
+        "handle": "aldosterone",
+        "featuredImage": { "url": "/images/aldosterone-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+            }
+        }
+    },
+    {
+        "handle": "alz",
+        "featuredImage": { "url": "/images/alz-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "anti-adipogenic",
+        "featuredImage": { "url": "/images/antiadipogenic-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "autonomous",
+        "featuredImage": { "url": "/images/autonomous-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "autophagy",
+        "featuredImage": { "url": "/images/autophagy-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "ekg",
+        "featuredImage": { "url": "/images/ekg-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "force-field",
+        "featuredImage": { "url": "/images/forcefield-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "glucose-blocker",
+        "featuredImage": { "url": "/images/glucoseblocker-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "helicobacter-pylori",
+        "featuredImage": { "url": "/images/helicobacter-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "hypnotic",
+        "featuredImage": { "url": "/images/hypnotic-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "jing-force",
+        "featuredImage": { "url": "/images/jingforce-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
     }
+
+
   ]
   
