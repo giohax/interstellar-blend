@@ -3,7 +3,7 @@ import FilterList from './filter';
 
 function CategoriesList() {
     const categories = [
-        'Cancer Prevention', 'Aging Prevention', 'Neurological Health', 
+        'All','Cancer Prevention', 'Aging Prevention', 'Neurological Health', 
         'Cognitive Enhancement', 'Weight Management', 'Metabolism Improvement', 
         'Cardiovascular Health', 'Oral Health', 'Digestive Health',
         'Skin Health', 'Beauty Enhancement', 'Sleep Management', 
@@ -12,6 +12,10 @@ function CategoriesList() {
     ];
     
     const categoryObjects = categories.map(category => {
+        if (category == 'All') return {
+            title: category,
+            path: '/search'
+        }
         return {
             title: category,
             path: `/search/${category.toLowerCase().replace(/ /g, '-')}`
