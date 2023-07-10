@@ -152,8 +152,425 @@
             "currencyCode": "USD"
           }
         }
+    },
+    {
+        "handle": "liver-regenerator",
+        "featuredImage": { "url": "/images/liverregenerator-thumbnail.jpg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "paraslayer",
+        "featuredImage": { "url": "/images/paraslayer-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "plush",
+        "featuredImage": { "url": "/images/plush-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "purge",
+        "featuredImage": { "url": "/images/purge-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "sabretooth",
+        "featuredImage": { "url": "/images/sabretooth-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "senolytic",
+        "featuredImage": { "url": "/images/senolytic-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "spaceborn",
+        "featuredImage": { "url": "/images/spaceborn-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "superhairformula",
+        "featuredImage": { "url": "/images/supertonichair-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "thrombolytic",
+        "featuredImage": { "url": "/images/thrombolytic-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "titanium",
+        "featuredImage": { "url": "/images/titanium-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "victorious",
+        "featuredImage": { "url": "/images/victorious-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "original",
+        "featuredImage": { "url": "/images/original-thumbnail.png" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "supernova",
+        "featuredImage": { "url": "/images/supernova-thumbnail.jpg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "thermo",
+        "featuredImage": { "url": "/images/thermo-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "spice",
+        "featuredImage": { "url": "/images/spice200-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "peel",
+        "featuredImage": { "url": "/images/peel200-thumbnail.png" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "thunder",
+        "featuredImage": { "url": "/images/thunder-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "shilajit",
+        "featuredImage": { "url": "/images/shilajit-thumbnail.png" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "niagra",
+        "featuredImage": { "url": "/images/niagra-thumbnail.jpg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "nebula",
+        "featuredImage": { "url": "/images/nebula-thumbnail.jpg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "acb",
+        "featuredImage": { "url": "/images/acb-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "apigenin",
+        "featuredImage": { "url": "/images/apigenin-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "matcha",
+        "featuredImage": { "url": "/images/matcha-thumbnail.jpg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "luteolin",
+        "featuredImage": { "url": "/images/luteolin-thumbnail.jpg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "seven-sages",
+        "featuredImage": { "url": "/images/sevensages-thumbnail.jpg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "pine-pollen",
+        "featuredImage": { "url": "/images/pinepollen-thumbnail.png" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "samples",
+        "featuredImage": { "url": "/images/samples-thumbnail.jpg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "beauty-sampler",
+        "featuredImage": { "url": "/images/beautycombo-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "megacombo",
+        "featuredImage": { "url": "/images/25blendcombo-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "acb-combo-featuring-super-ultimate-sampler-2001-peel-spice",
+        "featuredImage": { "url": "/images/10blendcombo-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "challengecombo",
+        "featuredImage": { "url": "/images/challengecombo-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "monthlyspecial",
+        "featuredImage": { "url": "/images/18blendcombo-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "peelandspicecombopack",
+        "featuredImage": { "url": "/images/peelspicecombo-thumbnail.png" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "spiceandpeelcombo",
+        "featuredImage": { "url": "/images/peelspicecombo201-thumbnail.jpg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "helico-paraslayer-combo",
+        "featuredImage": { "url": "/images/stomachresetcombo-thumbnail.jpg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "seven-sages-trinity-combo-bigsize",
+        "featuredImage": { "url": "/images/sevensagestrinity-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "super-ultimate-sampler-pack-sevensages",
+        "featuredImage": { "url": "/images/ultimatesampler-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
+    },
+    {
+        "handle": "triple-200-combo-mix",
+        "featuredImage": { "url": "/images/triple200combo-thumbnail.jpeg" },
+        "title": "",
+        "priceRange": {
+          "maxVariantPrice": {
+            "amount": "70",
+            "currencyCode": "USD"
+          }
+        }
     }
-
 
   ]
   
