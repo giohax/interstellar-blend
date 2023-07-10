@@ -52,18 +52,15 @@ export default function MobileMenu() {
                             >
                                 <CloseIcon className="h-6" />
                             </button>
-                            <div className="mb-4 w-full">
-                                <Search />
-                            </div>
-                            <ul className="flex flex-col">
+                            <ul className="flex flex-col items-center space-y-8">
                                 <li>
-                                    <Link className="rounded-lg py-1 text-xl transition-colors hover:text-gray-500 text-white" href={""}>SHOP</Link>
+                                    <Link className="rounded-lg py-1 text-4xl font-bold font-vandiana text-center transition-colors hover:text-gray-500 text-white" href={""}>SHOP</Link>
                                 </li>
                                 <li>
-                                    <Link className="rounded-lg py-1 text-xl transition-colors hover:text-gray-500 text-white" href={""}>RESOURCES</Link>
+                                    <Link className="rounded-lg py-1 text-4xl font-bold font-vandiana text-center transition-colors hover:text-gray-500 text-white" href={""}>RESOURCES</Link>
                                 </li>
                                 <li>
-                                    <Link className="rounded-lg py-1 text-xl transition-colors hover:text-gray-500 text-white" href={""}>TELEGRAM</Link>
+                                    <Link className="rounded-lg py-1 text-4xl font-bold font-vandiana text-center transition-colors hover:text-gray-500 text-white" href={""}>TELEGRAM</Link>
                                 </li>
                             </ul>
                         </div>
