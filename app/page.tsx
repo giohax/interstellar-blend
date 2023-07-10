@@ -1,14 +1,28 @@
-'use-client'
+"use client"
 import Link from 'next/link';
+import { useEffect, useState } from "react";
 
 export default function Home() {
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+      const isMobileDevice = /Mobi/i.test(window.navigator.userAgent);
+      setIsMobile(isMobileDevice);
+    }, []);
 
   return (
     <>
       <div className="fixed inset-0 flex items-center justify-center overflow-hidden">
-        <video controls={false} className="absolute inset-0 min-w-full min-h-full object-cover" autoPlay muted loop>
-          <source src="/videos/energy-radiating-720p.mp4" type="video/mp4" />
-        </video>
+        {isMobile ? (
+          <div
+            className="absolute inset-0 min-w-full min-h-full bg-center bg-cover"
+            style={{ backgroundImage: "url(/images/energy-radiating-pic)" }}
+          ></div>
+        ) : (
+          <video className="absolute inset-0 min-w-full min-h-full object-cover" autoPlay muted loop>
+            <source src="/videos/energy-radiating-720p.mp4" type="video/mp4" />
+          </video>
+        )}
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="absolute inset-0 flex items-center justify-center flex-col">
           <h1 className="text-white text-3xl lg:text-6xl font-bold font-vandiana text-center tracking-tighter">INTERSTELLAR BLEND</h1>
