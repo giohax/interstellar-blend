@@ -1,6 +1,7 @@
 "use client"
 import Link from 'next/link';
 import { useEffect, useState } from "react";
+import Image from 'next/image';
 
 export default function Home() {
     const [isMobile, setIsMobile] = useState(false);
@@ -12,12 +13,16 @@ export default function Home() {
 
   return (
     <>
-      <div className="fixed inset-0 flex items-center justify-center overflow-hidden">
+      <div className="fixed inset-0 flex items-center justify-center overflow-hidden absolute">
         {isMobile ? (
-          <div
-            className="absolute inset-0 min-w-full min-h-full bg-center bg-cover"
-            style={{ backgroundImage: "url(/images/energy-radiating-pic)" }}
-          ></div>
+          <div className="absolute inset-0 min-w-full min-h-full bg-center bg-cover">
+          <Image
+            src="/images/mobile-background.jpg"
+            alt="Mobile Background"
+            fill={true}
+            objectFit="cover"
+          />
+        </div>
         ) : (
           <video className="absolute inset-0 min-w-full min-h-full object-cover" autoPlay muted loop>
             <source src="/videos/energy-radiating-720p.mp4" type="video/mp4" />
