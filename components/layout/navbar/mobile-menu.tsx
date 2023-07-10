@@ -42,7 +42,7 @@ export default function MobileMenu() {
                         leaveFrom="translate-x-0"
                         leaveTo="translate-x-[-100%]"
                     >
-                        <Dialog.Panel className="fixed bottom-0 left-0 right-0 top-0 flex h-full w-full flex-col bg-white pb-6 dark:bg-black">
+                        <Dialog.Panel className="fixed bottom-0 left-0 right-0 top-0 flex h-full w-full flex-col pb-6 bg-black">
                         <div className="p-4">
                             <button
                                 className="mb-4"
@@ -57,13 +57,13 @@ export default function MobileMenu() {
                             </div>
                             <ul className="flex flex-col">
                                 <li>
-                                    <Link className="rounded-lg py-1 text-xl text-black transition-colors hover:text-gray-500 dark:text-white" href={""}>SHOP</Link>
+                                    <Link className="rounded-lg py-1 text-xl transition-colors hover:text-gray-500 text-white" href={""}>SHOP</Link>
                                 </li>
                                 <li>
-                                    <Link className="rounded-lg py-1 text-xl text-black transition-colors hover:text-gray-500 dark:text-white" href={""}>RESOURCES</Link>
+                                    <Link className="rounded-lg py-1 text-xl transition-colors hover:text-gray-500 text-white" href={""}>RESOURCES</Link>
                                 </li>
                                 <li>
-                                    <Link className="rounded-lg py-1 text-xl text-black transition-colors hover:text-gray-500 dark:text-white" href={""}>TELEGRAM</Link>
+                                    <Link className="rounded-lg py-1 text-xl transition-colors hover:text-gray-500 text-white" href={""}>TELEGRAM</Link>
                                 </li>
                             </ul>
                         </div>
