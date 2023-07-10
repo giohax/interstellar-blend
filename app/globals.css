@@ -8,15 +8,3 @@
   }
 }
 
-/* Add this to your global CSS file */
-.cursor {
-  position: fixed;
-  width: 10px!important;
-  height: 10px!important;
-  border-radius: 12px;
-  opacity: 1;
-  background: linear-gradient(190.05deg, #ff7f7f -16.32%, #ff1f1f 56.32%, #f68080 115.25%);
-  transform: translate(-50%,-50%);
-  z-index: 2100;
-  pointer-events: none;
-}
