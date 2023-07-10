@@ -20,10 +20,10 @@ function getProductsByCategory(products: Product[], category: string): Product[]
     return products.filter(product => product.categories.includes(category));
 }
 
-export default async function CategoryPage(params: { category: string }) {
+export default async function CategoryPage({params}: { params: { category: string} }) {
 
     const products = getProductsByCategory(mockProducts, params.category)
-    console.log(products);
+    console.log(products + ' is the products');
     return (
         <Grid className="grid-cols-2 lg:grid-cols-3">
             <ProductGridItems products={products} />
