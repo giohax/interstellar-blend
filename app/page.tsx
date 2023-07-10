@@ -5,15 +5,21 @@ import Image from 'next/image';
 
 export default function Home() {
   const [videoError, setVideoError] = useState(false);
+  const [videoPaused, setVideoPaused] = useState(false);
   const handleVideoError = () => {
     setVideoError(true);
   };
+  const handleVideoPause = () => {
+    setVideoPaused(true);
+  };
+
+
 
   return (
     <>
       <div className="fixed inset-0 flex items-center justify-center overflow-hidden absolute">
-      {!videoError ? (
-              <video className="absolute inset-0 min-w-full min-h-full object-cover" autoPlay muted loop onError={handleVideoError}>
+      {!videoError && !videoPaused ? (
+              <video className="absolute inset-0 min-w-full min-h-full object-cover" autoPlay muted loop onError={handleVideoError} onPause={handleVideoPause}>
                 <source src="/videos/energy-radiating-720p.mp4" type="video/mp4" />
               </video>
             ) : (
