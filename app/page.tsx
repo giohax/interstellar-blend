@@ -32,10 +32,10 @@ export default function Home() {
         <div className="absolute inset-0 flex items-center justify-center flex-col">
           <h1 className="text-white text-3xl lg:text-6xl font-bold font-vandiana text-center tracking-tighter">INTERSTELLAR BLEND</h1>
           <h2 className="text-white text-lxl lg:text-2xl font-bold font-vandiana text-center ">BECOME LIMITLESS WITH OUR PROPRIETARY HERBS</h2>
-          <video className="absolute inset-0 min-w-full min-h-full object-cover"
+          <video className="inset-0 w-1/3 h-1/3 object-cover"
                 autoPlay 
                 muted 
-                loop 
+                loop
                 >
                 <source src="/videos/energy-radiating-720p.mp4" type="video/mp4" />
               </video>
