@@ -18,17 +18,17 @@ export default function Navbar() {
                 </div>
                 <ul className="hidden lg:flex lg:items-center">
                     <li>
-                        <Link href={""} className="px-2 py-1 text-gray-200 hover:bg-black hover:bg-opacity-50 font-vandiana font-bold">
+                        <Link href={"/search"} className="rounded-full px-2 py-1 text-gray-200 hover:bg-black hover:bg-opacity-50 font-vandiana font-bold">
                             SHOP
                         </Link>
                     </li>
                     <li>
-                        <Link href={""} className="px-2 py-1 text-gray-200 hover:bg-black hover:bg-opacity-50 font-vandiana font-bold">
+                        <Link href={""} className="rounded-full px-2 py-1 text-gray-200 hover:bg-black hover:bg-opacity-50 font-vandiana font-bold">
                             RESOURCES
                         </Link>
                     </li>
                     <li>
-                        <Link href={""} className="px-2 py-1 text-gray-200 hover:bg-black hover:bg-opacity-50 font-vandiana font-bold">
+                        <Link href={""} className="rounded-full px-2 py-1 text-gray-200 hover:bg-black hover:bg-opacity-50 font-vandiana font-bold">
                             TELEGRAM
                         </Link>
                     </li>
