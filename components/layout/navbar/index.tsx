@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from 'next/image';
 import Search from "./search";
-import CartIcon from "../../icons/cart";
+import CartIcon from "components/icons/cart";
 import MobileMenu from "./mobile-menu";
 
 export default function Navbar() {

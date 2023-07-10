@@ -1,4 +1,4 @@
-import Categories from "components/layout/navbar/search/categories"
+import Categories from "components/layout/search/categories"
 
 
 export default function SearchLayout({ children }: { children: React.ReactNode }) {
