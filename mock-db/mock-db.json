@@ -1,0 +1,36 @@
+[
+    {
+      "handle": "product1",
+      "featuredImage": { "url": "https://example.com/product1.jpg" },
+      "title": "Product 1",
+      "priceRange": {
+        "maxVariantPrice": {
+          "amount": "50",
+          "currencyCode": "USD"
+        }
+      }
+    },
+    {
+      "handle": "product2",
+      "featuredImage": { "url": "https://example.com/product2.jpg" },
+      "title": "Product 2",
+      "priceRange": {
+        "maxVariantPrice": {
+          "amount": "60",
+          "currencyCode": "USD"
+        }
+      }
+    },
+    {
+      "handle": "product3",
+      "featuredImage": { "url": "https://example.com/product3.jpg" },
+      "title": "Product 3",
+      "priceRange": {
+        "maxVariantPrice": {
+          "amount": "70",
+          "currencyCode": "USD"
+        }
+      }
+    }
+  ]
+  
