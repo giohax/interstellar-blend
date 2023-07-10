@@ -7,7 +7,3 @@
     clip-path: inset(0.6px);
   }
 }
-
-* {
-  @apply focus:outline-none;
-}
