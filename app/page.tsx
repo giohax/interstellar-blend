@@ -15,9 +15,9 @@ export default function Home() {
                 muted 
                 loop 
                 playsInline
+                onWaiting={()=>setShowFallbackImage(true)}
                 onPause={()=>setShowFallbackImage(true)}
                 onError={()=>setShowFallbackImage(true)}
-                onSuspend={()=>setShowFallbackImage(true)}
                 >
                 <source src="/videos/energy-radiating-720p.mp4" type="video/mp4" />
               </video>
