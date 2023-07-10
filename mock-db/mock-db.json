@@ -8,7 +8,8 @@
           "amount": "50",
           "currencyCode": "USD"
         }
-      }
+      },
+      "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
       "handle": "ascendance",
@@ -19,7 +20,8 @@
           "amount": "60",
           "currencyCode": "USD"
         }
-      }
+      },
+      "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
       "handle": "spaceborn",
@@ -30,7 +32,8 @@
           "amount": "70",
           "currencyCode": "USD"
         }
-      }
+      },
+      "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "aldosterone",
@@ -41,7 +44,8 @@
             "amount": "70",
             "currencyCode": "USD"
             }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "alz",
@@ -52,7 +56,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "anti-adipogenic",
@@ -63,7 +68,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "autonomous",
@@ -74,7 +80,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "autophagy",
@@ -85,7 +92,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "ekg",
@@ -96,7 +104,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "force-field",
@@ -107,7 +116,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "glucose-blocker",
@@ -118,7 +128,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "helicobacter-pylori",
@@ -129,7 +140,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "hypnotic",
@@ -140,7 +152,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "jing-force",
@@ -151,7 +164,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "liver-regenerator",
@@ -162,7 +176,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "paraslayer",
@@ -173,7 +188,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "plush",
@@ -184,7 +200,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "purge",
@@ -195,7 +212,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "sabretooth",
@@ -206,7 +224,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "senolytic",
@@ -217,7 +236,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "spaceborn",
@@ -228,7 +248,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "superhairformula",
@@ -239,7 +260,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "thrombolytic",
@@ -250,7 +272,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "titanium",
@@ -261,7 +284,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "victorious",
@@ -272,7 +296,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "original",
@@ -283,7 +308,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "supernova",
@@ -294,7 +320,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "thermo",
@@ -305,7 +332,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "spice",
@@ -316,7 +344,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "peel",
@@ -327,7 +356,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "thunder",
@@ -338,7 +368,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "shilajit",
@@ -349,7 +380,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "niagra",
@@ -360,7 +392,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "nebula",
@@ -371,7 +404,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "acb",
@@ -382,7 +416,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "apigenin",
@@ -393,7 +428,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "matcha",
@@ -404,7 +440,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "luteolin",
@@ -415,7 +452,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "seven-sages",
@@ -426,7 +464,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "pine-pollen",
@@ -437,7 +476,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "samples",
@@ -448,7 +488,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "beauty-sampler",
@@ -459,7 +500,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "megacombo",
@@ -470,7 +512,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "acb-combo-featuring-super-ultimate-sampler-2001-peel-spice",
@@ -481,7 +524,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "challengecombo",
@@ -492,7 +536,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "monthlyspecial",
@@ -503,7 +548,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "peelandspicecombopack",
@@ -514,7 +560,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "spiceandpeelcombo",
@@ -525,7 +572,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "helico-paraslayer-combo",
@@ -536,7 +584,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "seven-sages-trinity-combo-bigsize",
@@ -547,7 +596,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "super-ultimate-sampler-pack-sevensages",
@@ -558,7 +608,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     },
     {
         "handle": "triple-200-combo-mix",
@@ -569,7 +620,8 @@
             "amount": "70",
             "currencyCode": "USD"
           }
-        }
+        },
+        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
     }
 
   ]
