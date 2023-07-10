@@ -18,6 +18,7 @@ export default function Home() {
                 onWaiting={()=>setShowFallbackImage(true)}
                 onPause={()=>setShowFallbackImage(true)}
                 onError={()=>setShowFallbackImage(true)}
+                poster='/images/interstellar-blend-bg.jpg'
                 >
                 <source src="/videos/energy-radiating-720p.mp4" type="video/mp4" />
               </video>
