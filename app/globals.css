@@ -8,3 +8,6 @@
   }
 }
 
+* {
+  @apply focus:outline-none;
+}
