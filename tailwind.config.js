@@ -5,6 +5,7 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  darkMode: false, 
   theme: {
     extend: {
       letterSpacing: {
@@ -32,6 +33,7 @@ module.exports = {
     extend: {
       // Other variants...
       objectFit: ['responsive'],
+      outline: ['focus-visible']
     },
   },
   plugins: [],
