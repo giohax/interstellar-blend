@@ -47,20 +47,7 @@ export function GridTileImage({
           alt={props.title || ''}
         />
       ) : null}
-      {labels ? (
-        <div className="absolute left-0 top-0 w-3/4 text-black dark:text-white">
-          <h3
-            data-testid="product-name"
-            className={clsx(
-              'inline bg-white box-decoration-clone py-3 pl-5 font-semibold leading-loose shadow-[1.25rem_0_0] shadow-white dark:bg-black dark:shadow-black',
-              !labels.isSmall ? 'text-3xl' : 'text-lg'
-            )}
-          >
-            {labels.title}
-          </h3>
 
-        </div>
-      ) : null}
     </div>
   );
 }
