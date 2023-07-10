@@ -14,7 +14,11 @@ export default function Home() {
           <h1 className="text-white text-3xl lg:text-6xl font-bold font-vandiana text-center tracking-tighter">INTERSTELLAR BLEND</h1>
           <h2 className="text-white text-lxl lg:text-2xl font-bold font-vandiana text-center ">BECOME LIMITLESS WITH OUR PROPRIETARY HERBS</h2>
           <Link href="/search" className="mt-8 bg-white hover:bg-gray-100 text-black text-md lg:text-lg font-normal py-3 px-6 rounded-full shadow-lg font-vandiana cursor-pointer">SHOP NOW</Link>
+          <video className="absolute inset-0 w-1/3 h-1/3 " autoPlay muted loop playsInline>
+            <source src="/videos/energy-radiating-720p.mp4" type="video/mp4" />
+          </video>        
         </div>
+
       </div>
 
     </>
