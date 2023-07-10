@@ -6,8 +6,6 @@ import Image from 'next/image';
 export default function Home() {
   const [showFallbackImage, setShowFallbackImage] = useState(false);
 
-
-
   return (
     <>
       <div className="fixed inset-0 flex items-center justify-center overflow-hidden absolute">
@@ -16,9 +14,8 @@ export default function Home() {
                 autoPlay 
                 muted 
                 loop 
-                onError={()=>setShowFallbackImage(true)} 
-                onEnded={()=>setShowFallbackImage(true)}
-                onSuspend={()=>setShowFallbackImage(true)}>
+                onPause={()=>setShowFallbackImage(true)}
+                >
                 <source src="/videos/energy-radiating-720p.mp4" type="video/mp4" />
               </video>
             ) : (
