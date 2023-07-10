@@ -1,24 +1,29 @@
 "use client"
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
 export default function Home() {
-  const [showFallbackImage, setShowFallbackImage] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const userAgent =
+      typeof window.navigator === 'undefined' ? '' : navigator.userAgent;
+    const mobile = /Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile/.test(userAgent);
+    setIsMobile(mobile);
+  }, []);
+
 
   return (
     <>
       <div className="fixed inset-0 flex items-center justify-center overflow-hidden absolute">
-      {!showFallbackImage ? (
-              <video className="absolute inset-0 min-w-full min-h-full object-cover"
+      {!isMobile  ? (
+              <video 
+                className="absolute inset-0 min-w-full min-h-full object-cover"
                 autoPlay 
                 muted 
                 loop 
                 playsInline
-                onWaiting={()=>setShowFallbackImage(true)}
-                onPause={()=>setShowFallbackImage(true)}
-                onError={()=>setShowFallbackImage(true)}
-                poster='/images/interstellar-blend-bg.jpg'
                 >
                 <source src="/videos/energy-radiating-720p.mp4" type="video/mp4" />
               </video>
