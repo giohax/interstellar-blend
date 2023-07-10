@@ -14,6 +14,7 @@ export default function Home() {
                 autoPlay 
                 muted 
                 loop 
+                playsInline
                 onPause={()=>setShowFallbackImage(true)}
                 onError={()=>setShowFallbackImage(true)}
                 >
