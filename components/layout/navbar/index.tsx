@@ -1,10 +1,18 @@
+'use client'
 import Link from "next/link";
 import Image from 'next/image';
 import Search from "./search";
 import CartIcon from "components/icons/cart";
 import MobileMenu from "./mobile-menu";
+import { usePathname } from "next/navigation";
+
+
 
 export default function Navbar() {
+
+
+    const pathname = usePathname()
+    
     return (
         <nav className="relative flex items-center justify-between p-4 lg:px-6 fixed z-10 bg-gradient-to-r-[15%] from-transparent to-gray-600"> 
             <div className="block w-1/3 lg:hidden">
@@ -34,11 +42,13 @@ export default function Navbar() {
                     </li>
                 </ul>
             </div>
-            <div className="hidden w-1/3 lg:block">
+            <div className="w-full lg:block lg:w-1/3">
                 <Search />
             </div>
             <div className="flex w-1/3 justify-end cursor-pointer">
-                <CartIcon/>
+                {
+                    pathname !== '/' && <CartIcon/>
+                }
             </div>
         </nav>
     )

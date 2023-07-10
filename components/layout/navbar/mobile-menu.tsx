@@ -15,7 +15,7 @@ export default function MobileMenu() {
             <button
                 onClick={openMobileMenu}
                 aria-label="Open mobile menu"
-                className="md:hidden"
+                className="lg:hidden"
                 data-testid="open-mobile-menu"
             >
                 <MenuIcon className="h-6" />
