@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      letterSpacing: {
+        tighter: '-.05em',
+        tight: '-.025em',
+      },
       maxWidth: {
         '8xl': '90rem'
       },
