@@ -25,7 +25,7 @@ export default function Home() {
             ) : (
               <div className="absolute inset-0 min-w-full min-h-full bg-center bg-cover">
                 <Image
-                  src="/images/interstellar-blend-bg.jpg"
+                  src="/images/energy-radiating-pic.png"
                   alt="Video Fallback"
                   layout="fill"
                   objectFit="cover"
