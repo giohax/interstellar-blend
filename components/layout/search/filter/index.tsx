@@ -1,6 +1,7 @@
 import { SortFilterItem } from 'lib/constants';
 import PathFilterItem from './item';
 import { Category } from 'lib/types';
+import FilterItemDropdown from './dropdown';
 
 export type ListItem = SortFilterItem | PathFilterItem;
 export type PathFilterItem = { title: string; path: string };
@@ -26,7 +27,7 @@ export default function FilterList({list, title }: { list: Category[]; title: st
                     <FilterItemList list={list} />
                 </ul>
                 <ul className="md:hidden">
-                    <h1>Filter Item List</h1>
+                  <FilterItemDropdown list={list} />
                 </ul>
             </nav>
         </>
