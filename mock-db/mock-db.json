@@ -1,7 +1,7 @@
 [
     {
       "handle": "product1",
-      "featuredImage": { "url": "https://example.com/product1.jpg" },
+      "featuredImage": { "url": "/images/trinity-thumbnail.jpeg" },
       "title": "Product 1",
       "priceRange": {
         "maxVariantPrice": {
@@ -12,8 +12,8 @@
     },
     {
       "handle": "product2",
-      "featuredImage": { "url": "https://example.com/product2.jpg" },
-      "title": "Product 2",
+      "featuredImage": { "url": "/images/trinity-thumbnail.jpeg" },
+      "title": "product 2",
       "priceRange": {
         "maxVariantPrice": {
           "amount": "60",
@@ -23,7 +23,7 @@
     },
     {
       "handle": "product3",
-      "featuredImage": { "url": "https://example.com/product3.jpg" },
+      "featuredImage": { "url": "/images/trinity-thumbnail.jpeg" },
       "title": "Product 3",
       "priceRange": {
         "maxVariantPrice": {
