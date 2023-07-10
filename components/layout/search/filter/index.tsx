@@ -1,11 +1,12 @@
 import { SortFilterItem } from 'lib/constants';
 import PathFilterItem from './item';
+import { Category } from 'lib/types';
 
 export type ListItem = SortFilterItem | PathFilterItem;
 export type PathFilterItem = { title: string; path: string };
 
 
-function FilterItemList({ list }: { list: string[] }) {
+function FilterItemList(list: Category[]) {
     return (
       <div className="hidden md:block">
         {list.map((item, i) => (
@@ -16,7 +17,10 @@ function FilterItemList({ list }: { list: string[] }) {
   }
   
 
-export default function FilterList({list, title }: { list: string[]; title: string }) {
+export default function FilterList({list, title }: { list: {
+    title: string;
+    path: string;
+  }[]; title: string }) {
     return (
         <>
             <nav className="col-span-2 w-full flex-none px-6 py-2 md:py-4 md:pl-10">

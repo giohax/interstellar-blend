@@ -9,8 +9,15 @@ function CategoriesList() {
         'Skin Health', 'Beauty Enhancement', 'Sleep Management', 
         'Stress Management', 'Detoxification', 'Immune System Support',
         'Physical Performance', 'Muscle Health', 'Combos'
-    ]
-    return <FilterList list={categories} title="Categories" />
+    ];
+    
+    const categoryObjects = categories.map(category => {
+        return {
+            title: category,
+            path: `/${category.toLowerCase().replace(/ /g, '-')}`
+        };
+    });
+    return <FilterList list={categoryObjects} title="Categories" />
 }
 
 export default function Categories() {

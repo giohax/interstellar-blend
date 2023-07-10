@@ -3,19 +3,18 @@ import Link from "next/link";
 import clsx from "clsx";
 import { useEffect, useState } from "react";
 import { usePathname, useSearchParams } from 'next/navigation';
+import { Category } from "lib/types";
 
-export default function PathFilterItem({item} : {item: string}) {
+export default function PathFilterItem(item: Category) {
     const pathname = usePathname();
-    const searchParams = useSearchParams();
     const [active, setActive] = useState(false);
-    const newParams = new URLSearchParams(searchParams.toString());
 
-    newParams.delete('q');
-
+    console.log(pathname);
+  
 
 
     return (
-        <li className="mt-2 flex text-sm text-gray-400" key={item}>
+        <li className="mt-2 flex text-sm text-gray-400" key={item.title}>
             <Link
             href={""}
             className={clsx('w-full hover:text-gray-100', {
@@ -23,7 +22,7 @@ export default function PathFilterItem({item} : {item: string}) {
                 'font-semibold text-white': active
             })}
             >
-            {item}
+            {item.title}
             </Link>
       </li>
     )

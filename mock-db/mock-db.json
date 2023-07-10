@@ -21,7 +21,7 @@
           "currencyCode": "USD"
         }
       },
-      "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
+      "categories": ["neurological-health", "cognitive-enhancement", "weight-management", "aging-prevention"]
     },
     {
       "handle": "spaceborn",
@@ -33,7 +33,7 @@
           "currencyCode": "USD"
         }
       },
-      "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
+      "categories": ["neurological-health", "cognitive-enhancement", "skin-health", "beauty-enhancement, immune-system-support, physical-performance, aging-prevention"]
     },
     {
         "handle": "aldosterone",
@@ -45,7 +45,7 @@
             "currencyCode": "USD"
             }
         },
-        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
+        "categories": ["metabolism-improvement", "cardiovascular-health", "oral-health"]
     },
     {
         "handle": "alz",
@@ -57,7 +57,7 @@
             "currencyCode": "USD"
           }
         },
-        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
+        "categories": ["cognitive-enhancement", "weight-management"]
     },
     {
         "handle": "anti-adipogenic",
@@ -69,7 +69,7 @@
             "currencyCode": "USD"
           }
         },
-        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
+        "categories": ["metabolism-improvement"]
     },
     {
         "handle": "autonomous",
@@ -81,7 +81,7 @@
             "currencyCode": "USD"
           }
         },
-        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
+        "categories": ["cognitive-enhancement", "weight-management"]
     },
     {
         "handle": "autophagy",
@@ -93,7 +93,7 @@
             "currencyCode": "USD"
           }
         },
-        "categories": ["cognitive-enhancement", "weight-management", "stress-management", "detoxification"]
+        "categories": ["cardiovascular-health", "neurological-health"]
     },
     {
         "handle": "ekg",
