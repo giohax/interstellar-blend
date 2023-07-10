@@ -6,7 +6,7 @@ export type ListItem = SortFilterItem | PathFilterItem;
 export type PathFilterItem = { title: string; path: string };
 
 
-function FilterItemList(list: Category[]) {
+function FilterItemList({list}: {list: Category[]}) {
     return (
       <div className="hidden md:block">
         {list.map((item, i) => (
@@ -17,10 +17,7 @@ function FilterItemList(list: Category[]) {
   }
   
 
-export default function FilterList({list, title }: { list: {
-    title: string;
-    path: string;
-  }[]; title: string }) {
+export default function FilterList({list, title }: { list: Category[]; title: string }) {
     return (
         <>
             <nav className="col-span-2 w-full flex-none px-6 py-2 md:py-4 md:pl-10">

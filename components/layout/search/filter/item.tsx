@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { usePathname, useSearchParams } from 'next/navigation';
 import { Category } from "lib/types";
 
-export default function PathFilterItem(item: Category) {
+export default function PathFilterItem({item}:{item: Category}) {
     const pathname = usePathname();
     const [active, setActive] = useState(false);
 
