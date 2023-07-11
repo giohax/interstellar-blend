@@ -100,7 +100,7 @@ export default function Home() {
                   </p>
                 </div> */}
                 <div className="text-center md:text-start">
-
+                  <h1 className="font-bold text-2xl mb-2">Feel young again</h1>
                 </div>
                 <div className="text-center md:text-start">
 
