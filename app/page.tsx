@@ -77,8 +77,7 @@ export default function Home() {
                 <div className="text-center md:text-start">
                   <h1 className="font-bold text-2xl mb-2">Feel young again</h1>
                   <p className="text-gray-400">
-                    Rekindle the vitality of your youth. It&apos;s a
-                    rejuvenating experience that breathes new life into your routine. Each sip brings a rush of natural
+                    Rekindle the vitality of your youth. Packed with antioxidants and polyphenols, each sip brings a rush of natural
                     ingredients designed to keep you feeling fresh, lively, and as youthful as ever.
                   </p>
                 </div>
