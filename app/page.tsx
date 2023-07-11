@@ -99,14 +99,14 @@ export default function Home() {
                     possibilities of your day.
                   </p>
                 </div> */}
-                <div>
+                <div className="text-center md:text-start">
 
                 </div>
-                <div>
+                <div className="text-center md:text-start">
 
                 </div>
-                <div>
-                  
+                <div className="text-center md:text-start">
+
                 </div>
               </div>
             </div>
