@@ -45,22 +45,22 @@ export default function Home() {
       </div>
 
       <div className="px-4 py-10 text-center text-gray-400 font-bold text-lg tracking-widest">
-        <small className="">
+        <small className="font-vandiana">
           REACH THE INTERSTELLAR
         </small>
       </div>
 
       <div className="flex justify-center">
         <div className="px-10 py-10 text-center">
-          <h1 className="text-3xl font-bold text-red-500">Drink</h1>
-          <h1 className="text-4xl lg:text-5xl font-bold mt-6">Over 1000 organic ingredients</h1>
+          <h1 className="text-3xl font-bold text-red-500 font-vandiana">Drink</h1>
+          <h1 className="text-4xl lg:text-5xl font-bold mt-6 ">Over 1000 organic ingredients</h1>
           <h2 className="text-xl mt-6 text-gray-400 w-2/3 max-w-740 mx-auto">Feel powerful, energetic, happy, and ready to kick ass with the most powerful natural ingredients in the universe.</h2>
           <div>
             <img className="rounded-md w-full md:max-w-lg mx-auto mt-8" src="images/ingredients.jpeg"/>
           </div>
           
           <div className="mt-32">
-            <h1 className="text-3xl font-bold text-purple-500">Fast</h1>
+            <h1 className="text-3xl font-bold text-purple-500 font-vandiana">Fast</h1>
             <h1 className="text-5xl font-bold mt-6">Ultimate path to longevity</h1>
             <h2 className="text-xl mt-6 text-gray-400 max-w-740">Fasting</h2>
           </div>
