@@ -20,7 +20,7 @@ export default function Home() {
       <div className="relative h-screen flex items-center justify-center overflow-hidden">
         {!isMobile  ? (
                 <video 
-                  className="absolute inset-0 min-w-full min-h-full object-cover"
+                  className="hidden  md:block absolute inset-0 min-w-full min-h-full object-cover"
                   autoPlay 
                   muted 
                   loop 
@@ -40,15 +40,16 @@ export default function Home() {
               )}
           <div className="absolute inset-0 bg-black opacity-10"></div>
           <div className="absolute inset-0 flex items-center justify-center flex-col px-4">
-            <h1 className="text-white text-5xl lg:text-6xl font-bold font-vandiana text-center tracking-tighter custom-shadow leading-none">INTERSTELLAR BLEND</h1>
+            <h1 className="text-red-500 md:text-white text-5xl lg:text-6xl font-bold font-vandiana text-center tracking-tighter custom-shadow leading-none">INTERSTELLAR BLEND</h1>
             <h2 className="text-white text-1xl lg:text-2xl font-bold font-vandiana text-center custom-shadow">BECOME LIMITLESS WITH OUR PROPRIETARY HERBS</h2>
             <Link href="/search" className="mt-8 bg-white hover:bg-red-500 hover:text-white text-black text-md lg:text-lg font-bold py-3 px-6 w-full md:w-64 rounded-full shadow-lg text-center font-vandiana cursor-pointer">SHOP NOW</Link>
-            <Link href="" className="mt-2 bg-custom-black hover:bg-red-500 text-white text-md lg:text-lg font-bold py-3 px-6 w-full md:w-64 rounded-full shadow-lg text-center font-vandiana cursor-pointer">LEARN MORE</Link>
+            <Link href="" className="mt-2 bg-custom-black hover:bg-red-500 text-white text-md lg:text-lg font-bold py-3 px-6 w-full md:w-64 rounded-full shadow-lg text-center font-vandiana cursor-pointer border-2 border-red-500">LEARN MORE</Link>
           </div>
           <style jsx>{`
             .custom-shadow {
-              text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  // dark shadow for small screens
+              text-shadow: 0 0 10px rgba(245, 101, 101, 0.75);  // dark shadow for small screens
             }
+
 
             @media (min-width: 1024px) {
               .custom-shadow {
@@ -65,6 +66,7 @@ export default function Home() {
           Here's where you can add plenty of text, images, or any other content that you need.
         </p>
       </div>
+      
     </div>
 
 
