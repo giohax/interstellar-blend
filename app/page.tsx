@@ -86,14 +86,14 @@ export default function Home() {
                   <p className="text-gray-400">
                     Embrace a healthier, lighter you with our expertly crafted blend. Each
                     ingredient is chosen for its natural weight management properties, helping you on your journey to a
-                    leaner physique. But it&apos;s not just about losing weight - it's about gaining confidence, embracing
+                    leaner physique. But it&apos;s not just about losing weight - it&apos;s about gaining confidence, embracing
                     health, and falling in love with yourself again.
                   </p>
                 </div>
                 <div className="text-center md:text-start">
                   <h1 className="font-bold text-2xl mb-2">Become limitless</h1>
                   <p className="text-gray-400">
-                    Tap into your ultimate potential with our organic herb blend. It's not just a drink; it&apos;s a key to
+                    Tap into your ultimate potential with our organic herb blend. It&apos;s not just a drink; it&apos;s a key to
                     unlocking boundless energy, enhancing focus, and boosting productivity. With over 1000 powerful,
                     natural ingredients, it&apos;s the fuel you need to break through boundaries and embrace the limitless
                     possibilities of your day.
