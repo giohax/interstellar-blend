@@ -1,22 +1,10 @@
 "use client"
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
-import Image from 'next/image';
 
 export default function Home() {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const userAgent =
-      typeof window.navigator === 'undefined' ? '' : navigator.userAgent;
-    const mobile = /Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile/.test(userAgent);
-    setIsMobile(mobile);
-  }, []);
-
 
   return (
     <>
-
         <style jsx>{`
             .custom-shadow {
               text-shadow: 0 0 10px rgba(245, 101, 101, 0.75);  // dark shadow for small screens
@@ -30,7 +18,6 @@ export default function Home() {
           `}</style>
     <div className="relative flex flex-col mt-[-73.6px]">
       <div className="relative h-screen flex items-center justify-center overflow-hidden">
-        {!isMobile  ? (
                 <video 
                   className="hidden  md:block absolute inset-0 min-w-full min-h-full object-cover"
                   autoPlay 
@@ -40,16 +27,7 @@ export default function Home() {
                   >
                   <source src="/videos/energy-radiating-720p.mp4" type="video/mp4" />
                 </video>
-              ) : (
-                <div className="absolute inset-0 min-w-full min-h-full bg-center bg-cover">
-                  <Image
-                    src="/images/energy-radiating-pic.png"
-                    alt="Video Fallback"
-                    layout="fill"
-                    objectFit="cover"
-                  />
-                </div>
-              )}
+
           <div className="absolute inset-0 bg-black opacity-10"></div>
           <div className="absolute inset-0 flex items-center justify-center flex-col px-4">
             <h1 className="text-red-500 md:text-white text-5xl lg:text-6xl font-bold font-vandiana text-center tracking-tighter custom-shadow leading-none">INTERSTELLAR BLEND</h1>
@@ -79,7 +57,7 @@ export default function Home() {
           <div className="mt-32">
             <h1 className="text-3xl font-bold text-purple-500">Fast</h1>
             <h1 className="text-5xl font-bold mt-6">Ultimate path to longevity</h1>
-            <h2 className="text-xl mt-6 text-gray-400 max-w-740">Feel powerful, energetic, happy, and ready to kick ass with the most powerful natural ingredients in the universe.</h2>
+            <h2 className="text-xl mt-6 text-gray-400 max-w-740">Fasting</h2>
           </div>
           
         </div>
