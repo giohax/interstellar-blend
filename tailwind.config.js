@@ -8,6 +8,9 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
+      colors: {
+        'custom-black': '#0A0A0A'
+      },
       letterSpacing: {
         tighter: '-.05em',
         tight: '-.025em',
