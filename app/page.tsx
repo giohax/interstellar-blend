@@ -67,7 +67,7 @@ export default function Home() {
             
             
             
-            {/* <div className="mx-auto flex max-w-5xl flex-col py-6 md:flex-row mt-8 space-y-10 md:space-y-0 space-x-0 md:space-x-10">
+            <div className="mx-auto flex max-w-5xl flex-col py-6 md:flex-row mt-8 space-y-10 md:space-y-0 space-x-0 md:space-x-10">
               <div className="order-first flex-none md:w-1/2">
                 <img className="rounded-md" src="images/ingredients.jpeg" />
               </div>
@@ -86,7 +86,7 @@ export default function Home() {
                   <p className="text-gray-400">Tap into your ultimate potential with our organic herb blend. It's not just a drink; it's a key to unlocking boundless energy, enhancing focus, and boosting productivity. With over 1000 powerful, natural ingredients, it's the fuel you need to break through boundaries and embrace the limitless possibilities of your day.</p>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
 
