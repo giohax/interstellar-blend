@@ -80,9 +80,9 @@ export default function Home() {
 
         <div className="flex justify-center">
           <div className="px-10 py-10 text-center">
-                <h1 className="text-3xl font-bold text-purple-500 font-vandiana">Fast</h1>
-                <h1 className="text-5xl font-bold mt-6">Your way to longevity</h1>
-                <h2 className="text-xl mt-6 text-gray-400 max-w-740">Fasting</h2>
+                <h1 className="text-xl md:text-3xl font-bold text-purple-500 font-vandiana">Fast</h1>
+                <h1 className="text-4xl md:text-5xl font-bold mt-6">Your way to longevity</h1>
+                <h2 className="text-l md:text-xl mt-6 text-gray-400 w-5/6 max-w-740 mx-auto">Fasting</h2>
           </div>
         </div>
 
