@@ -73,7 +73,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col justify-between leading-relaxed space-y-10">
-                {/* <div className="text-center md:text-start">
+                <div className="text-center md:text-start">
                   <h1 className="font-bold text-2xl mb-2">Feel young again</h1>
                   <p className="text-gray-400">
                     Rekindle the vitality of your youth with our organic herb blend. It's more than just a drink; it's a
@@ -98,7 +98,7 @@ export default function Home() {
                     natural ingredients, it's the fuel you need to break through boundaries and embrace the limitless
                     possibilities of your day.
                   </p>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>
