@@ -64,28 +64,42 @@ export default function Home() {
             <h1 className="text-xl md:text-3xl font-bold text-red-500 font-vandiana">Drink</h1>
             <h1 className="text-4xl md:text-5xl font-bold mt-6 ">Over 1000 organic ingredients</h1>
             <h2 className="text-l md:text-xl mt-6 text-gray-400 w-5/6 max-w-740 mx-auto">Feel powerful, energetic, happy, and ready to kick ass with the most powerful natural ingredients in the universe.</h2>
-            
-            
-            
+
+
+
             <div className="mx-auto flex max-w-5xl flex-col py-6 md:flex-row mt-8 space-y-10 md:space-y-0 space-x-0 md:space-x-10">
               <div className="order-first flex-none md:w-1/2">
                 <img className="rounded-md" src="images/ingredients.jpeg" />
               </div>
-              
-              <div className="flex flex-col justify-between leading-relaxed space-y-10">
+
+              {/* <div className="flex flex-col justify-between leading-relaxed space-y-10">
                 <div className="text-center md:text-start">
                   <h1 className="font-bold text-2xl mb-2">Feel young again</h1>
-                  <p className="text-gray-400">Rekindle the vitality of your youth with our organic herb blend. It's more than just a drink; it's a rejuvenating experience that breathes new life into your routine. Each sip brings a rush of natural ingredients designed to keep you feeling fresh, lively, and as youthful as ever.</p>
+                  <p className="text-gray-400">
+                    Rekindle the vitality of your youth with our organic herb blend. It's more than just a drink; it's a
+                    rejuvenating experience that breathes new life into your routine. Each sip brings a rush of natural
+                    ingredients designed to keep you feeling fresh, lively, and as youthful as ever.
+                  </p>
                 </div>
                 <div className="text-center md:text-start">
                   <h1 className="font-bold text-2xl mb-2">Lose weight</h1>
-                  <p className="text-gray-400">Embrace a healthier, lighter you with our expertly crafted blend. Each ingredient is chosen for its natural weight management properties, helping you on your journey to a leaner physique. But it's not just about losing weight - it's about gaining confidence, embracing health, and falling in love with yourself again.</p>
+                  <p className="text-gray-400">
+                    Embrace a healthier, lighter you with our expertly crafted blend. Each
+                    ingredient is chosen for its natural weight management properties, helping you on your journey to a
+                    leaner physique. But it's not just about losing weight - it's about gaining confidence, embracing
+                    health, and falling in love with yourself again.
+                  </p>
                 </div>
                 <div className="text-center md:text-start">
                   <h1 className="font-bold text-2xl mb-2">Become limitless</h1>
-                  <p className="text-gray-400">Tap into your ultimate potential with our organic herb blend. It's not just a drink; it's a key to unlocking boundless energy, enhancing focus, and boosting productivity. With over 1000 powerful, natural ingredients, it's the fuel you need to break through boundaries and embrace the limitless possibilities of your day.</p>
+                  <p className="text-gray-400">
+                    Tap into your ultimate potential with our organic herb blend. It's not just a drink; it's a key to
+                    unlocking boundless energy, enhancing focus, and boosting productivity. With over 1000 powerful,
+                    natural ingredients, it's the fuel you need to break through boundaries and embrace the limitless
+                    possibilities of your day.
+                  </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -100,9 +114,9 @@ export default function Home() {
 
         <div className="flex justify-center">
           <div className="px-10 py-10 text-center">
-                <h1 className="text-xl md:text-3xl font-bold text-purple-500 font-vandiana">Fast</h1>
-                <h1 className="text-4xl md:text-5xl font-bold mt-6">Your way to longevity</h1>
-                <h2 className="text-l md:text-xl mt-6 text-gray-400 w-5/6 max-w-740 mx-auto">Fasting</h2>
+            <h1 className="text-xl md:text-3xl font-bold text-purple-500 font-vandiana">Fast</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mt-6">Your way to longevity</h1>
+            <h2 className="text-l md:text-xl mt-6 text-gray-400 w-5/6 max-w-740 mx-auto">Fasting</h2>
           </div>
         </div>
 
