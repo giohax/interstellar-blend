@@ -15,6 +15,9 @@ module.exports = {
         tighter: '-.05em',
         tight: '-.025em',
       },
+      height: {
+        'mobile-section': '40rem'
+      },
       maxWidth: {
         '8xl': '90rem',
         '740': '740px',
