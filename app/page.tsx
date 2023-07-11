@@ -9,14 +9,15 @@ export default function Home() {
             .custom-shadow {
               text-shadow: 0 0 10px rgba(245, 101, 101, 0.5);  // dark shadow for small screens
             }
-            .custom-subtitle-shadow {
-              text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-            }
+
 
 
             @media (min-width: 1024px) {
               .custom-shadow {
                 text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);  // light shadow for large screens
+              }
+              .custom-subtitle-shadow {
+                text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
               }
 
             }
