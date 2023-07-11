@@ -101,6 +101,11 @@ export default function Home() {
                 </div> */}
                 <div className="text-center md:text-start">
                   <h1 className="font-bold text-2xl mb-2">Feel young again</h1>
+                  <p className="text-gray-400">
+                    Rekindle the vitality of your youth with our organic herb blend. It's more than just a drink; it's a
+                    rejuvenating experience that breathes new life into your routine. Each sip brings a rush of natural
+                    ingredients designed to keep you feeling fresh, lively, and as youthful as ever.
+                  </p>
                 </div>
                 <div className="text-center md:text-start">
 
