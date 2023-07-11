@@ -76,7 +76,7 @@ export default function Home() {
                 <div className="text-center md:text-start">
                   <h1 className="font-bold text-2xl mb-2">Feel young again</h1>
                   <p className="text-gray-400">
-                    Rekindle the vitality of your youth with our organic herb blend. It&apos;s more than just a drink; it&apos;s a
+                    Rekindle the vitality of your youth. It&apos;s a
                     rejuvenating experience that breathes new life into your routine. Each sip brings a rush of natural
                     ingredients designed to keep you feeling fresh, lively, and as youthful as ever.
                   </p>
@@ -84,7 +84,7 @@ export default function Home() {
                 <div className="text-center md:text-start">
                   <h1 className="font-bold text-2xl mb-2">Lose weight</h1>
                   <p className="text-gray-400">
-                    Embrace a healthier, lighter you with our expertly crafted blend. Each
+                    Embrace a healthier and lighter you. Each
                     ingredient is chosen for its natural weight management properties, helping you on your journey to a
                     leaner physique. But it&apos;s not just about losing weight - it&apos;s about gaining confidence, embracing
                     health, and falling in love with yourself again.
@@ -93,7 +93,7 @@ export default function Home() {
                 <div className="text-center md:text-start">
                   <h1 className="font-bold text-2xl mb-2">Become limitless</h1>
                   <p className="text-gray-400">
-                    Tap into your ultimate potential with our organic herb blend. It&apos;s not just a drink; it&apos;s a key to
+                    The blends are the key to
                     unlocking boundless energy, enhancing focus, and boosting productivity. With over 1000 powerful,
                     natural ingredients, it&apos;s the fuel you need to break through boundaries and embrace the limitless
                     possibilities of your day.
@@ -116,7 +116,11 @@ export default function Home() {
           <div className="px-10 py-10 text-center">
             <h1 className="text-xl md:text-3xl font-bold text-purple-500 font-vandiana">Fast</h1>
             <h1 className="text-4xl md:text-5xl font-bold mt-6">Your way to longevity</h1>
-            <h2 className="text-l md:text-xl mt-6 text-gray-400 w-5/6 max-w-740 mx-auto">Fasting</h2>
+            <h2 className="text-l md:text-xl mt-6 text-gray-400 w-5/6 max-w-740 mx-auto">
+              Our ingredients are hand-picked to naturally curb appetite and sustain energy levels. The blends complement your 
+              fasting journey, supports detoxification, and promotes longevity. With our potent, natural ingredients fueling your 
+              body, step into a healthier, longer life.
+            </h2>
           </div>
         </div>
 
