@@ -50,6 +50,14 @@ export default function Home() {
           </small>
         </div>
 
+        <div className="mt-4 mx-auto flex flex-col items-center">
+          <div className="w-px h-24 bg-gradient-to-b from-black to-red-500"></div>
+          <div className="w-10 h-10 rounded-full bg-red-500 flex items-center justify-center text-white">
+            <span className="text-lg text-black font-bold">1</span>
+          </div>
+        </div>
+
+
         <div className="flex justify-center">
           <div className="px-10 py-10 text-center">
             <h1 className="text-xl md:text-3xl font-bold text-red-500 font-vandiana">Drink</h1>
