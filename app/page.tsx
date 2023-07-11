@@ -67,16 +67,23 @@ export default function Home() {
             <div>
               <img className="rounded-md w-full md:max-w-lg mx-auto mt-8" src="images/ingredients.jpeg" />
             </div>
-
-            <div className="mt-32">
-              <h1 className="text-3xl font-bold text-purple-500 font-vandiana">Fast</h1>
-              <h1 className="text-5xl font-bold mt-6">Ultimate path to longevity</h1>
-              <h2 className="text-xl mt-6 text-gray-400 max-w-740">Fasting</h2>
-            </div>
-
           </div>
+        </div>
+
+        <div className="mt-4 mx-auto flex flex-col items-center">
+          <div className="w-px h-24 bg-gradient-to-b from-black to-purple-500"></div>
+          <div className="w-10 h-10 rounded-full bg-purple-500 flex items-center justify-center text-white">
+            <span className="text-lg text-black font-bold">2</span>
+          </div>
+        </div>
 
 
+        <div className="flex justify-center">
+          <div className="px-10 py-10 text-center">
+                <h1 className="text-3xl font-bold text-purple-500 font-vandiana">Fast</h1>
+                <h1 className="text-5xl font-bold mt-6">Your way to longevity</h1>
+                <h2 className="text-xl mt-6 text-gray-400 max-w-740">Fasting</h2>
+          </div>
         </div>
 
 
