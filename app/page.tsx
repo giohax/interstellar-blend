@@ -16,6 +16,18 @@ export default function Home() {
 
   return (
     <>
+
+        <style jsx>{`
+            .custom-shadow {
+              text-shadow: 0 0 10px rgba(245, 101, 101, 0.75);  // dark shadow for small screens
+            }
+
+            @media (min-width: 1024px) {
+              .custom-shadow {
+                text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);  // light shadow for large screens
+              }
+            }
+          `}</style>
     <div className="relative flex flex-col mt-[-73.6px]">
       <div className="relative h-screen flex items-center justify-center overflow-hidden">
         {!isMobile  ? (
@@ -45,27 +57,36 @@ export default function Home() {
             <Link href="/search" className="mt-8 bg-white hover:bg-red-500 hover:text-white text-black text-md lg:text-lg font-bold py-3 px-6 w-full md:w-64 rounded-full shadow-lg text-center font-vandiana cursor-pointer">SHOP NOW</Link>
             <Link href="" className="mt-2 bg-custom-black hover:bg-red-500 text-white text-md lg:text-lg font-bold py-3 px-6 w-full md:w-64 rounded-full shadow-lg text-center font-vandiana cursor-pointer border-2 border-red-500">LEARN MORE</Link>
           </div>
-          <style jsx>{`
-            .custom-shadow {
-              text-shadow: 0 0 10px rgba(245, 101, 101, 0.75);  // dark shadow for small screens
-            }
 
-
-            @media (min-width: 1024px) {
-              .custom-shadow {
-                text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);  // light shadow for large screens
-              }
-            }
-          `}</style>
 
       </div>
 
-      <div className="px-4 py-8">
-        <h2 className="text-2xl lg:text-3xl font-bold font-vandiana mb-4">Additional Content</h2>
-        <p className="text-lg lg:text-xl font-vandiana">
-          Here's where you can add plenty of text, images, or any other content that you need.
-        </p>
+      <div className="px-4 py-10 text-center text-gray-400 font-bold text-lg tracking-widest">
+        <small className="">
+          REACH THE INTERSTELLAR
+        </small>
       </div>
+
+      <div className="flex justify-center">
+        <div className="px-4 py-10 text-center">
+          <h1 className="text-3xl font-bold text-red-500">Drink</h1>
+          <h1 className="text-5xl font-bold mt-6">Over 1000 organic ingredients</h1>
+          <h2 className="text-xl mt-6 text-gray-400 max-w-740">Feel powerful, energetic, happy, and ready to kick ass with the most powerful natural ingredients in the universe.</h2>
+          <div>
+            <img className="rounded-md max-w-lg mx-auto mt-8" src="images/ingredients.jpeg"/>
+          </div>
+          
+          <div className="mt-32">
+            <h1 className="text-3xl font-bold text-purple-500">Fast</h1>
+            <h1 className="text-5xl font-bold mt-6">Ultimate path to longevity</h1>
+            <h2 className="text-xl mt-6 text-gray-400 max-w-740">Feel powerful, energetic, happy, and ready to kick ass with the most powerful natural ingredients in the universe.</h2>
+          </div>
+          
+        </div>
+
+           
+      </div>
+
       
     </div>
 

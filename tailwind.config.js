@@ -9,14 +9,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'custom-black': '#0A0A0A'
+        'custom-black': '#0A0A0A',
       },
       letterSpacing: {
         tighter: '-.05em',
         tight: '-.025em',
       },
       maxWidth: {
-        '8xl': '90rem'
+        '8xl': '90rem',
+        '740': '740px',
+
       },
       objectFit: {
         cover: 'cover',
