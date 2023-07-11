@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import '../styles/fonts.css'
 import { Suspense } from 'react';
+import Footer from 'components/layout/footer';
 
 
 const inter = Inter({
@@ -29,6 +30,7 @@ export default function RootLayout({
         <Suspense>
           <main>{children}</main>
         </Suspense>
+        <Footer />
       </body>
     </html>
   )
