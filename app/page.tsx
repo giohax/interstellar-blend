@@ -119,7 +119,7 @@ export default function Home() {
             <h1 className="text-4xl md:text-5xl font-bold mt-6">Your way to longevity</h1>
             <h2 className="text-l md:text-xl mt-6 text-gray-400 w-5/6 max-w-740 mx-auto">
               Our ingredients are hand-picked to naturally curb appetite and sustain energy levels. The blends complement your
-              fasting journey, supports detoxification, and promotes longevity. With our potent, natural ingredients fueling your
+              fasting journey, supports autophagy, and promotes longevity. With our potent, natural ingredients fueling your
               body, step into a healthier, longer life.
             </h2>
           </div>
