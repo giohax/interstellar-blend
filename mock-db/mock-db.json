@@ -240,18 +240,6 @@
         "categories": ["anti-aging-and-longevity"]
     },
     {
-        "handle": "spaceborn",
-        "featuredImage": { "url": "/images/spaceborn-thumbnail.jpeg" },
-        "title": "",
-        "priceRange": {
-          "maxVariantPrice": {
-            "amount": "70",
-            "currencyCode": "USD"
-          }
-        },
-        "categories": ["immune-support-and-infection-control"]
-    },
-    {
         "handle": "superhairformula",
         "featuredImage": { "url": "/images/supertonichair-thumbnail.jpeg" },
         "title": "",
