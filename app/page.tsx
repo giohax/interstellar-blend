@@ -170,7 +170,7 @@ export default function Home() {
             <h1 className="text-xl md:text-3xl font-bold text-blue-500 font-vandiana">Embrace</h1>
             <h1 className="text-4xl md:text-5xl font-bold mt-6">Limitless possibilities</h1>
             <h2 className="text-l md:text-xl mt-6 text-gray-400 w-5/6 max-w-740 mx-auto">
-              Choose the blend that's right for you. We have countless selections of blends that is optimized for a specific end goal.
+              Choose the blend that&apos;s right for you. We have countless selections of blends that is optimized for a specific end goal.
               Whether you are looking to lose weight, gain muscle mass, increase mental performance, or obliterate depression, we
               have the blend you are looking for.
             </h2>
