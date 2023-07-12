@@ -40,6 +40,7 @@ export default function Home() {
             loop
             playsInline
           >
+            <source src="/videos/energy-radiating-720p.m4v" type="video/x-m4v" />
             <source src="/videos/energy-radiating-720p.mp4" type="video/mp4" />
           </video>
 
