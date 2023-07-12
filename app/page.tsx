@@ -79,16 +79,16 @@ export default function Home() {
 
 
 
-            <div className="mx-auto flex max-w-5xl flex-col py-6 md:flex-row mt-8 space-y-10 md:space-y-0 space-x-0 md:space-x-10">
+            <div className="mx-auto flex max-w-5xl flex-col py-6 md:flex-row mt-8 space-y-20 md:space-y-0 space-x-0 md:space-x-10">
               <div className="order-first flex-none md:w-1/2">
                 <img className="rounded-md" src="images/ingredients.jpeg" />
               </div>
 
-              <div className="flex flex-col justify-between leading-relaxed space-y-10">
+              <div className="flex flex-col justify-between leading-relaxed space-y-16 md:space-y-10">
                 <div className="text-center md:text-start">
                   <div className="flex flex-col md:flex-row justify-center md:justify-start items-center mb-2 space-y-3 md:space-y-0 md:space-x-3">
                     <div className="p-2 bg-neutral-800 rounded-md">
-                      <SunglassesIcon className="h-6 w-6" />
+                      <SunglassesIcon className="h-8 w-8 md:h-6 md:w-6" />
                     </div>
                     <h1 className="font-bold text-2xl">Feel young again</h1>
                   </div>
@@ -101,7 +101,7 @@ export default function Home() {
                 <div className="text-center md:text-start">
                   <div className="flex flex-col md:flex-row justify-center md:justify-start items-center mb-2 space-y-3 md:space-y-0  md:space-x-3">
                     <div className="p-2 bg-neutral-800 rounded-md">
-                      <ScaleIcon className="h-6 w-6" />
+                      <ScaleIcon className="h-8 w-8 md:h-6 md:w-6" />
                     </div>
 
                     <h1 className="font-bold text-2xl">Lose weight</h1>
@@ -116,7 +116,7 @@ export default function Home() {
                 <div className="text-center md:text-start">
                   <div className="flex flex-col md:flex-row justify-center md:justify-start items-center mb-2 space-y-3 md:space-y-0 md:space-x-3">
                     <div className="p-2 bg-neutral-800 rounded-md">
-                      <BoltIcon className="h-6 w-6" />
+                      <BoltIcon className="h-8 w-8 md:h-6 md:w-6" />
                     </div>
 
                     <h1 className="font-bold text-2xl">Become limitless</h1>
@@ -130,7 +130,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="mt-8 flex items-center justify-center flex-col">
+            <div className="my-14 flex items-center justify-center flex-col">
               <Link href="/search" className="bg-white hover:bg-red-500 hover:text-white text-black text-md lg:text-lg font-bold py-3 px-6 w-full md:w-64 rounded-full shadow-lg text-center font-vandiana cursor-pointer">SHOP NOW</Link>
             </div>
 
