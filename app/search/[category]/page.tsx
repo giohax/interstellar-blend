@@ -25,7 +25,7 @@ export default async function CategoryPage({params}: { params: { category: strin
     const products = getProductsByCategory(mockProducts, params.category)
     console.log(products + ' is the products');
     return (
-        <Grid className="grid-cols-2 lg:grid-cols-3">
+        <Grid className="grid-cols-2 lg:grid-cols-3 px-4">
             <ProductGridItems products={products} />
         </Grid>
     )
