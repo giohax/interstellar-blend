@@ -54,16 +54,16 @@ export default function MobileMenu() {
                             </button>
                             <ul className="flex flex-col items-center space-y-8 text-center">
                                 <li>
-                                    <Link className="rounded-lg py-1 text-2xl font-bold font-vandiana text-center transition-colors hover:text-gray-500 text-white" href={"/"}>INTERSTELLAR BLEND</Link>
+                                    <Link onClick={closeMobileMenu} className="rounded-lg py-1 text-2xl font-bold font-vandiana text-center transition-colors hover:text-gray-500 text-white" href={"/"}>INTERSTELLAR BLEND</Link>
                                 </li>
                                 <li>
-                                    <Link className="rounded-lg py-1 text-2xl font-bold font-vandiana text-center transition-colors hover:text-gray-500 text-white" href={"/search"}>SHOP</Link>
+                                    <Link onClick={closeMobileMenu} className="rounded-lg py-1 text-2xl font-bold font-vandiana text-center transition-colors hover:text-gray-500 text-white" href={"/search"}>SHOP</Link>
                                 </li>
                                 <li>
-                                    <Link className="rounded-lg py-1 text-2xl font-bold font-vandiana text-center transition-colors hover:text-gray-500 text-white" href={""}>RESOURCES</Link>
+                                    <Link onClick={closeMobileMenu} className="rounded-lg py-1 text-2xl font-bold font-vandiana text-center transition-colors hover:text-gray-500 text-white" href={""}>RESOURCES</Link>
                                 </li>
                                 <li>
-                                    <Link className="rounded-lg py-1 text-2xl font-bold font-vandiana text-center transition-colors hover:text-gray-500 text-white" href={""}>TELEGRAM</Link>
+                                    <Link onClick={closeMobileMenu} className="rounded-lg py-1 text-2xl font-bold font-vandiana text-center transition-colors hover:text-gray-500 text-white" href={""}>TELEGRAM</Link>
                                 </li>
                             </ul>
                         </div>
