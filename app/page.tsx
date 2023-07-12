@@ -91,7 +91,7 @@ export default function Home() {
                     <div className="p-2 bg-neutral-800 rounded-md">
                       <SunglassesIcon className="h-8 w-8 md:h-6 md:w-6" />
                     </div>
-                    <h1 className="font-bold text-2xl font-vandiana ">Feel young again</h1>
+                    <h1 className="font-bold text-xl font-vandiana ">Feel young again</h1>
                   </div>
 
                   <p className="text-gray-400">
@@ -105,7 +105,7 @@ export default function Home() {
                       <ScaleIcon className="h-8 w-8 md:h-6 md:w-6" />
                     </div>
 
-                    <h1 className="font-bold text-2xl font-vandiana">Lose weight</h1>
+                    <h1 className="font-bold text-xl font-vandiana">Lose weight</h1>
                   </div>
                   <p className="text-gray-400">
                     Embrace a healthier and lighter you. Each
@@ -120,7 +120,7 @@ export default function Home() {
                       <BoltIcon className="h-8 w-8 md:h-6 md:w-6" />
                     </div>
 
-                    <h1 className="font-bold text-2xl font-vandiana">Become limitless</h1>
+                    <h1 className="font-bold text-xl font-vandiana">Become limitless</h1>
                   </div>
                   <p className="text-gray-400">
                     The blends are the key to
