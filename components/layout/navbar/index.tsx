@@ -15,7 +15,7 @@ export default function Navbar() {
     
     return (
         <nav className="relative flex items-center justify-between p-4 lg:px-6 fixed z-10 bg-gradient-to-r-[15%] from-transparent to-gray-600"> 
-            <div className="block w-1/3 lg:hidden">
+            <div className="block w-1/6 lg:hidden">
                 <MobileMenu />
             </div>
             <div className="hidden lg:flex justify-self-center md:w-1/3 md:justify-self-start">
@@ -45,7 +45,7 @@ export default function Navbar() {
             <div className="w-full lg:block lg:w-1/3">
                 <Search />
             </div>
-            <div className="flex w-1/3 justify-end cursor-pointer">
+            <div className="flex w-1/6 lg:w-1/3 justify-end cursor-pointer">
                 {
                     pathname !== '/' && <CartIcon/>
                 }
