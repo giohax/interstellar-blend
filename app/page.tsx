@@ -48,7 +48,7 @@ export default function Home() {
 
           <div className="absolute inset-0 bg-black opacity-10"></div>
           <div className="absolute inset-0 flex items-center justify-center flex-col px-4 md:px-10">
-            <h1 className="text-red-500 md:text-white text-4xl lg:text-6xl font-bold font-vandiana text-center tracking-tighter custom-shadow leading-none">INTERSTELLAR BLEND</h1>
+            <h1 className="text-red-500 md:text-white text-4xl lg:text-6xl font-bold font-vandiana text-center custom-shadow leading-none">INTERSTELLAR BLEND</h1>
             <h2 className="text-white text-1xl lg:text-2xl font-bold font-vandiana text-center custom-subtitle-shadow">BECOME LIMITLESS WITH OUR ANTI-AGING HERBS</h2>
             <Link href="/search" className="mt-8 bg-white hover:bg-red-500 hover:text-white text-black text-md lg:text-lg font-bold py-3 px-6 w-full md:w-64 rounded-full shadow-lg text-center font-vandiana cursor-pointer">SHOP NOW</Link>
             <a href="#section" onClick={handleClick} className="mt-2 bg-custom-black hover:bg-red-500 text-white text-md lg:text-lg font-bold py-3 px-6 w-full md:w-64 rounded-full shadow-lg text-center font-vandiana cursor-pointer border-2 border-red-500">LEARN MORE</a>
@@ -73,8 +73,8 @@ export default function Home() {
 
         <div className="flex justify-center">
           <div className="px-4 md:px-10 py-10 text-center">
-            <h1 className="text-xl md:text-3xl font-bold text-red-500 font-vandiana">Drink</h1>
-            <h1 className="text-4xl md:text-5xl font-bold mt-6 ">Over 1000 organic ingredients</h1>
+            <h1 className="text-xl md:text-3xl font-bold text-red-500 font-vandiana">Become</h1>
+            <h1 className="text-3xl lg:text-5xl font-bold mt-6 font-vandiana">The best version of yourself</h1>
             <h2 className="text-l md:text-xl mt-6 text-gray-400 max-w-740 mx-auto">Feel powerful, energetic, happy, and ready to kick ass with the most powerful natural ingredients in the universe.</h2>
 
 
@@ -90,7 +90,7 @@ export default function Home() {
                     <div className="p-2 bg-neutral-800 rounded-md">
                       <SunglassesIcon className="h-8 w-8 md:h-6 md:w-6" />
                     </div>
-                    <h1 className="font-bold text-2xl">Feel young again</h1>
+                    <h1 className="font-bold text-2xl font-vandiana ">Feel young again</h1>
                   </div>
 
                   <p className="text-gray-400">
@@ -104,7 +104,7 @@ export default function Home() {
                       <ScaleIcon className="h-8 w-8 md:h-6 md:w-6" />
                     </div>
 
-                    <h1 className="font-bold text-2xl">Lose weight</h1>
+                    <h1 className="font-bold text-2xl font-vandiana">Lose weight</h1>
                   </div>
                   <p className="text-gray-400">
                     Embrace a healthier and lighter you. Each
@@ -119,7 +119,7 @@ export default function Home() {
                       <BoltIcon className="h-8 w-8 md:h-6 md:w-6" />
                     </div>
 
-                    <h1 className="font-bold text-2xl">Become limitless</h1>
+                    <h1 className="font-bold text-2xl font-vandiana">Become limitless</h1>
                   </div>
                   <p className="text-gray-400">
                     The blends are the key to
