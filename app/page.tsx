@@ -68,14 +68,15 @@ export default function Home() {
           <div className="w-10 h-10 rounded-full bg-red-500 flex items-center justify-center text-white">
             <span className="text-lg text-black font-bold">1</span>
           </div>
+          <h1 className="text-lg md:text-2xl font-bold text-red-500 font-vandiana mt-5">Become</h1>
         </div>
 
 
         <div className="flex justify-center">
-          <div className="px-4 md:px-10 py-10 text-center">
-            <h1 className="text-xl md:text-3xl font-bold text-red-500 font-vandiana">Become</h1>
-            <h1 className="text-3xl lg:text-5xl font-bold mt-6 font-vandiana">The best version of yourself</h1>
-            <h2 className="text-l md:text-xl mt-6 text-gray-400 max-w-740 mx-auto">Feel powerful, energetic, happy, and ready to kick ass with the most powerful natural ingredients in the universe.</h2>
+          <div className="px-4 md:px-10 text-center">
+            
+            <h1 className="text-2xl lg:text-4xl font-bold mt-6 font-vandiana">The best version of yourself</h1>
+            <h2 className="text-l md:text-xl mt-6 text-gray-400 max-w-740 mx-auto">Feel powerful, energetic, happy, and ready to kick ass with the most powerful natural ingredients in the universe in our blends.</h2>
 
 
 
@@ -142,13 +143,14 @@ export default function Home() {
           <div className="w-10 h-10 rounded-full bg-purple-500 flex items-center justify-center text-white">
             <span className="text-lg text-black font-bold">2</span>
           </div>
+          <h1 className="text-xl md:text-3xl font-bold text-purple-500 font-vandiana mt-5">Fast</h1>
         </div>
 
 
         <div className="flex justify-center">
           <div className="px-4 md:px-10 text-center mb-48">
-            <h1 className="text-xl md:text-3xl font-bold text-purple-500 font-vandiana">Fast</h1>
-            <h1 className="text-3xl lg:text-5xl font-bold mt-6 font-vandiana">Your way to longevity</h1>
+            
+            <h1 className="text-2xl lg:text-4xl font-bold mt-6 font-vandiana">Your way to longevity</h1>
             <h2 className="text-l md:text-xl mt-6 text-gray-400 max-w-740 mx-auto">
               Our ingredients are hand-picked to naturally curb appetite and sustain energy levels. The blends complement your
               fasting journey, supports autophagy, and promotes longevity. With our potent, natural ingredients fueling your
@@ -163,12 +165,13 @@ export default function Home() {
           <div className="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center text-white">
             <span className="text-lg text-black font-bold">3</span>
           </div>
+          <h1 className="text-xl md:text-3xl font-bold text-blue-500 font-vandiana mt-5">Embrace</h1>
         </div>
 
         <div className="flex justify-center">
           <div className="px-4 md:px-10 text-center mb-48">
-            <h1 className="text-xl md:text-3xl font-bold text-blue-500 font-vandiana">Embrace</h1>
-            <h1 className="text-3xl lg:text-5xl font-bold mt-6 font-vandiana">Limitless possibilities</h1>
+            
+            <h1 className="text-2xl lg:text-4xl font-bold mt-6 font-vandiana">Limitless possibilities</h1>
             <h2 className="text-l md:text-xl mt-6 text-gray-400 max-w-740 mx-auto">
               Choose the blend that&apos;s right for you. We have countless selections of blends that is optimized for a specific end goal.
               Whether you are looking to lose weight, gain muscle mass, increase mental performance, or obliterate depression, we
@@ -183,12 +186,12 @@ export default function Home() {
           <div className="w-10 h-10 rounded-full bg-green-500 flex items-center justify-center text-white">
             <span className="text-lg text-black font-bold">4</span>
           </div>
+          <h1 className="text-xl md:text-3xl font-bold text-green-500 font-vandiana mt-5">Join</h1>
         </div>
 
         <div className="flex justify-center">
           <div className="px-4 md:px-10 text-center mb-48">
-            <h1 className="text-xl md:text-3xl font-bold text-green-500 font-vandiana">Join</h1>
-            <h1 className="text-3xl lg:text-5xl font-bold mt-6 font-vandiana">Others on the same path as you</h1>
+            <h1 className="text-2xl lg:text-4xl font-bold mt-6 font-vandiana">Others on the same path as you</h1>
             <h2 className="text-l md:text-xl mt-6 text-gray-400 max-w-740 mx-auto">
               Join thousands of people who have transformed their lives with our blends. Their stories echo triumph, resilience, and a
               renewed zest for life. With us, you&apos;re not just choosing a product, you&apos;re embracing a journey towards your best self. Hop
