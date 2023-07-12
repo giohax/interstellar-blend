@@ -55,7 +55,7 @@ export default async function Footer() {
                                     href={""}
                                     className="text-gray-800 transition duration-150 ease-in-out hover:text-gray-300 dark:text-gray-100"
                                 >
-                                    Shippinh & Return Policy
+                                    Shipping & Return Policy
                                 </Link>
                             </li>
                             <li className="py-3 md:py-0 md:pb-4">
