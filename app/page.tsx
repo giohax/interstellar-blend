@@ -47,7 +47,7 @@ export default function Home() {
           </video>
 
           <div className="absolute inset-0 bg-black opacity-10"></div>
-          <div className="absolute inset-0 flex items-center justify-center flex-col px-10">
+          <div className="absolute inset-0 flex items-center justify-center flex-col px-4 md:px-10">
             <h1 className="text-red-500 md:text-white text-4xl lg:text-6xl font-bold font-vandiana text-center tracking-tighter custom-shadow leading-none">INTERSTELLAR BLEND</h1>
             <h2 className="text-white text-1xl lg:text-2xl font-bold font-vandiana text-center custom-subtitle-shadow">BECOME LIMITLESS WITH OUR ANTI-AGING HERBS</h2>
             <Link href="/search" className="mt-8 bg-white hover:bg-red-500 hover:text-white text-black text-md lg:text-lg font-bold py-3 px-6 w-full md:w-64 rounded-full shadow-lg text-center font-vandiana cursor-pointer">SHOP NOW</Link>
@@ -72,10 +72,10 @@ export default function Home() {
 
 
         <div className="flex justify-center">
-          <div className="px-10 py-10 text-center">
+          <div className="px-4 md:px-10 py-10 text-center">
             <h1 className="text-xl md:text-3xl font-bold text-red-500 font-vandiana">Drink</h1>
             <h1 className="text-4xl md:text-5xl font-bold mt-6 ">Over 1000 organic ingredients</h1>
-            <h2 className="text-l md:text-xl mt-6 text-gray-400 w-5/6 max-w-740 mx-auto">Feel powerful, energetic, happy, and ready to kick ass with the most powerful natural ingredients in the universe.</h2>
+            <h2 className="text-l md:text-xl mt-6 text-gray-400 max-w-740 mx-auto">Feel powerful, energetic, happy, and ready to kick ass with the most powerful natural ingredients in the universe.</h2>
 
 
 
@@ -146,16 +146,16 @@ export default function Home() {
 
 
         <div className="flex justify-center">
-          <div className="px-10 py-10 text-center mb-48">
+          <div className="px-4 md:px-10 text-center mb-48">
             <h1 className="text-xl md:text-3xl font-bold text-purple-500 font-vandiana">Fast</h1>
             <h1 className="text-4xl md:text-5xl font-bold mt-6">Your way to longevity</h1>
-            <h2 className="text-l md:text-xl mt-6 text-gray-400 w-5/6 max-w-740 mx-auto">
+            <h2 className="text-l md:text-xl mt-6 text-gray-400 max-w-740 mx-auto">
               Our ingredients are hand-picked to naturally curb appetite and sustain energy levels. The blends complement your
               fasting journey, supports autophagy, and promotes longevity. With our potent, natural ingredients fueling your
               body, step into a healthier, longer life.
             </h2>
           </div>
-          
+
         </div>
 
         <div className="mt-4 mx-auto flex flex-col items-center">
@@ -166,10 +166,10 @@ export default function Home() {
         </div>
 
         <div className="flex justify-center">
-          <div className="px-10 py-10 text-center mb-48">
+          <div className="px-4 md:px-10 text-center mb-48">
             <h1 className="text-xl md:text-3xl font-bold text-blue-500 font-vandiana">Embrace</h1>
             <h1 className="text-4xl md:text-5xl font-bold mt-6">Limitless possibilities</h1>
-            <h2 className="text-l md:text-xl mt-6 text-gray-400 w-5/6 max-w-740 mx-auto">
+            <h2 className="text-l md:text-xl mt-6 text-gray-400 max-w-740 mx-auto">
               Choose the blend that&apos;s right for you. We have countless selections of blends that is optimized for a specific end goal.
               Whether you are looking to lose weight, gain muscle mass, increase mental performance, or obliterate depression, we
               have the blend you are looking for.
@@ -177,7 +177,7 @@ export default function Home() {
           </div>
         </div>
 
-        
+
         <div className="mt-4 mx-auto flex flex-col items-center">
           <div className="w-px h-24 bg-gradient-to-b from-black to-green-500"></div>
           <div className="w-10 h-10 rounded-full bg-green-500 flex items-center justify-center text-white">
@@ -186,12 +186,12 @@ export default function Home() {
         </div>
 
         <div className="flex justify-center">
-          <div className="px-10 py-10 text-center mb-48">
+          <div className="px-4 md:px-10 text-center mb-48">
             <h1 className="text-xl md:text-3xl font-bold text-green-500 font-vandiana">Join</h1>
             <h1 className="text-4xl md:text-5xl font-bold mt-6">Others on the same path as you</h1>
-            <h2 className="text-l md:text-xl mt-6 text-gray-400 w-5/6 max-w-740 mx-auto">
-              Join thousands of people who have transformed their lives with our blends. Their stories echo triumph, resilience, and a 
-              renewed zest for life. With us, you&apos;re not just choosing a product, you&apos;re embracing a journey towards your best self. Hop 
+            <h2 className="text-l md:text-xl mt-6 text-gray-400 max-w-740 mx-auto">
+              Join thousands of people who have transformed their lives with our blends. Their stories echo triumph, resilience, and a
+              renewed zest for life. With us, you&apos;re not just choosing a product, you&apos;re embracing a journey towards your best self. Hop
               on this path of transformation, because together, we can make it happen.
             </h2>
           </div>
