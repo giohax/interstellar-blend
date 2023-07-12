@@ -1,8 +1,16 @@
 "use client"
 import BoltIcon from '@/components/icons/bolt';
 import Link from 'next/link';
+import { MouseEvent, useRef} from 'react'
 
 export default function Home() {
+  const sectionRef = useRef<HTMLDivElement>(null)
+
+  const handleClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
+    event.preventDefault()
+
+    sectionRef.current?.scrollIntoView({ behavior: 'smooth' })
+  }
 
   return (
     <div className="overflow-x-hidden md:overflow-x-visible">
@@ -40,13 +48,13 @@ export default function Home() {
             <h1 className="text-red-500 md:text-white text-5xl lg:text-6xl font-bold font-vandiana text-center tracking-tighter custom-shadow leading-none">INTERSTELLAR BLEND</h1>
             <h2 className="text-white text-1xl lg:text-2xl font-bold font-vandiana text-center custom-subtitle-shadow">BECOME LIMITLESS WITH OUR ANTI-AGING HERBS</h2>
             <Link href="/search" className="mt-8 bg-white hover:bg-red-500 hover:text-white text-black text-md lg:text-lg font-bold py-3 px-6 w-full md:w-64 rounded-full shadow-lg text-center font-vandiana cursor-pointer">SHOP NOW</Link>
-            <Link href="" className="mt-2 bg-custom-black hover:bg-red-500 text-white text-md lg:text-lg font-bold py-3 px-6 w-full md:w-64 rounded-full shadow-lg text-center font-vandiana cursor-pointer border-2 border-red-500">LEARN MORE</Link>
+            <a href="#section" onClick={handleClick} className="mt-2 bg-custom-black hover:bg-red-500 text-white text-md lg:text-lg font-bold py-3 px-6 w-full md:w-64 rounded-full shadow-lg text-center font-vandiana cursor-pointer border-2 border-red-500">LEARN MORE</a>
           </div>
 
 
         </div>
 
-        <div className="px-4 py-0 md:py-10 text-center text-gray-400 font-bold text-lg tracking-widest">
+        <div id="section" ref={sectionRef} className="px-4 py-0 md:py-10 text-center text-gray-400 font-bold text-lg tracking-widest">
           <small className="font-vandiana">
             REACH THE INTERSTELLAR
           </small>
