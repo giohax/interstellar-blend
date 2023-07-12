@@ -175,9 +175,27 @@ export default function Home() {
               have the blend you are looking for.
             </h2>
           </div>
-          
         </div>
 
+        
+        <div className="mt-4 mx-auto flex flex-col items-center">
+          <div className="w-px h-24 bg-gradient-to-b from-black to-green-500"></div>
+          <div className="w-10 h-10 rounded-full bg-green-500 flex items-center justify-center text-white">
+            <span className="text-lg text-black font-bold">4</span>
+          </div>
+        </div>
+
+        <div className="flex justify-center">
+          <div className="px-10 py-10 text-center mb-48">
+            <h1 className="text-xl md:text-3xl font-bold text-green-500 font-vandiana">Join</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mt-6">Others on the same path as you</h1>
+            <h2 className="text-l md:text-xl mt-6 text-gray-400 w-5/6 max-w-740 mx-auto">
+              Join a community of people who have transformed their lives with our blends. Their stories echo triumph, resilience, and a 
+              renewed zest for life. With us, you're not just choosing a product, you're embracing a journey towards your best self. Hop 
+              on this path of transformation, because together, we can make it happen.
+            </h2>
+          </div>
+        </div>
 
       </div>
 
