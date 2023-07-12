@@ -52,7 +52,7 @@ export default function MobileMenu() {
                             >
                                 <CloseIcon className="h-6" />
                             </button>
-                            <ul className="flex flex-col items-center space-y-8">
+                            <ul className="flex flex-col items-center space-y-8 text-center">
                                 <li>
                                     <Link className="rounded-lg py-1 text-4xl font-bold font-vandiana text-center transition-colors hover:text-gray-500 text-white" href={"/"}>INTERSTELLAR BLEND</Link>
                                 </li>
