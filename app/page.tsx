@@ -1,7 +1,9 @@
 "use client"
 import BoltIcon from '@/components/icons/bolt';
+import ScaleIcon from '@/components/icons/scale';
+import SunglassesIcon from '@/components/icons/sunglasses';
 import Link from 'next/link';
-import { MouseEvent, useRef} from 'react'
+import { MouseEvent, useRef } from 'react'
 
 export default function Home() {
   const sectionRef = useRef<HTMLDivElement>(null)
@@ -84,14 +86,26 @@ export default function Home() {
 
               <div className="flex flex-col justify-between leading-relaxed space-y-10">
                 <div className="text-center md:text-start">
-                  <h1 className="font-bold text-2xl mb-2">Feel young again</h1>
+                  <div className="flex flex-col md:flex-row justify-center md:justify-start items-center mb-2 space-y-3 md:space-y-0 md:space-x-3">
+                    <div className="p-2 bg-neutral-800 rounded-md">
+                      <SunglassesIcon className="h-6 w-6" />
+                    </div>
+                    <h1 className="font-bold text-2xl">Feel young again</h1>
+                  </div>
+
                   <p className="text-gray-400">
                     Rekindle the vitality of your youth. Packed with antioxidants and polyphenols, each sip brings a rush of natural
                     ingredients designed to keep you feeling fresh, lively, and as youthful as ever.
                   </p>
                 </div>
                 <div className="text-center md:text-start">
-                  <h1 className="font-bold text-2xl mb-2">Lose weight</h1>
+                  <div className="flex flex-col md:flex-row justify-center md:justify-start items-center mb-2 space-y-3 md:space-y-0  md:space-x-3">
+                    <div className="p-2 bg-neutral-800 rounded-md">
+                      <ScaleIcon className="h-6 w-6" />
+                    </div>
+
+                    <h1 className="font-bold text-2xl">Lose weight</h1>
+                  </div>
                   <p className="text-gray-400">
                     Embrace a healthier and lighter you. Each
                     ingredient is chosen for its natural weight management properties, helping you on your journey to a
@@ -100,7 +114,13 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="text-center md:text-start">
-                  <h1 className="font-bold text-2xl mb-2">Become limitless</h1>
+                  <div className="flex flex-col md:flex-row justify-center md:justify-start items-center mb-2 space-y-3 md:space-y-0 md:space-x-3">
+                    <div className="p-2 bg-neutral-800 rounded-md">
+                      <BoltIcon className="h-6 w-6" />
+                    </div>
+
+                    <h1 className="font-bold text-2xl">Become limitless</h1>
+                  </div>
                   <p className="text-gray-400">
                     The blends are the key to
                     unlocking boundless energy, enhancing focus, and boosting productivity. With over 1000 powerful,
@@ -113,7 +133,7 @@ export default function Home() {
             <div className="mt-8 flex items-center justify-center flex-col">
               <Link href="/search" className="bg-white hover:bg-red-500 hover:text-white text-black text-md lg:text-lg font-bold py-3 px-6 w-full md:w-64 rounded-full shadow-lg text-center font-vandiana cursor-pointer">SHOP NOW</Link>
             </div>
-            
+
           </div>
         </div>
 
