@@ -42,7 +42,7 @@ export function GridTileImage({
         {props.src ? (
           <Image
             className={clsx('relative h-full w-full object-contain', {
-              'transition duration-300 ease-in-out hover:scale-105': isInteractive
+              'transition duration-300 ease-in-out md:hover:scale-105': isInteractive
             })}
             {...props}
             alt={props.title || ''}
