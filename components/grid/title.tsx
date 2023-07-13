@@ -8,7 +8,7 @@ export default function GridTitle({title, amount, src}: {title:string, amount:st
                 <span className="truncate text-sm">{title}</span>
                 <span className="text-lg mt-1 font-semibold">${amount}</span>
             </div>
-            <div className="rounded-full bg-red-500 p-2 flex-shrink-0">
+            <div className="rounded-full bg-red-500 active:text-red-500 active:bg-white p-2 flex-shrink-0 cursor-pointer transition-transform duration-200 ease-in-out transform hover:scale-105">
                 <IconPlus className="h-6 w-6"/>
             </div>
             
