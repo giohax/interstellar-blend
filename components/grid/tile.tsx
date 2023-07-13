@@ -22,7 +22,7 @@ export function GridTileImage({
 } & React.ComponentProps<typeof Image>) {
   return (
     <div
-      className={clsx('relative flex h-full w-full items-center justify-center overflow-hidden', {
+      className={clsx('relative flex h-full w-full items-center justify-center overflow-hidden rounded-md', {
         'bg-white dark:bg-white': background === 'white',
         'bg-[#ff0080] dark:bg-[#ff0080]': background === 'pink',
         'bg-[#7928ca] dark:bg-[#7928ca]': background === 'purple',
