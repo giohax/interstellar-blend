@@ -1,6 +1,7 @@
 import Grid from 'components/grid';
 import { GridTileImage } from 'components/grid/tile';
 import Link from 'next/link';
+import GridTitle from 'components/grid/title';
 
 type Product = {
     handle: string;
@@ -33,6 +34,11 @@ export default function ProductGridItems({ products }: { products: Product[] }) 
               height={600}
             />
           </Link>
+          <GridTitle
+            title={product.title}
+            amount={product.priceRange.maxVariantPrice.amount}
+            src={product.featuredImage?.url}
+          />
         </Grid.Item>
       ))}
     </>

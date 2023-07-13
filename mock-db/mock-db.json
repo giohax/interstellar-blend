@@ -2,10 +2,10 @@
     {
       "handle": "trinity",
       "featuredImage": { "url": "/images/trinity-thumbnail.jpeg" },
-      "title": "",
+      "title": "TRINITY",
       "priceRange": {
         "maxVariantPrice": {
-          "amount": "50",
+          "amount": "275",
           "currencyCode": "USD"
         }
       },
@@ -14,10 +14,10 @@
     {
       "handle": "ascendance",
       "featuredImage": { "url": "/images/ascendance-thumbnail.jpeg" },
-      "title": "",
+      "title": "ASCENDANCE: Pain Annihilator - Non Opioid Anti-Inflammatory Analgesic",
       "priceRange": {
         "maxVariantPrice": {
-          "amount": "60",
+          "amount": "275",
           "currencyCode": "USD"
         }
       },
@@ -26,10 +26,10 @@
     {
       "handle": "spaceborn",
       "featuredImage": { "url": "/images/spaceborn-thumbnail.jpeg" },
-      "title": "",
+      "title": "SPACEBORN: Medicinal Mushroom Masterpiece",
       "priceRange": {
         "maxVariantPrice": {
-          "amount": "70",
+          "amount": "275",
           "currencyCode": "USD"
         }
       },
@@ -38,10 +38,10 @@
     {
         "handle": "aldosterone",
         "featuredImage": { "url": "/images/aldosterone-thumbnail.jpeg" },
-        "title": "",
+        "title": "ALDOSTERONE DOWNREGULATOR",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
             }
         },
@@ -50,10 +50,10 @@
     {
         "handle": "alz",
         "featuredImage": { "url": "/images/alz-thumbnail.jpeg" },
-        "title": "",
+        "title": "ALZ: Neuroprotector",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -62,10 +62,10 @@
     {
         "handle": "anti-adipogenic",
         "featuredImage": { "url": "/images/antiadipogenic-thumbnail.jpeg" },
-        "title": "",
+        "title": "ANTI-ADIPOGENIC: Adipocyte Differentiation Inhibitor",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -74,10 +74,10 @@
     {
         "handle": "autonomous",
         "featuredImage": { "url": "/images/autonomous-thumbnail.jpeg" },
-        "title": "",
+        "title": "AUTONOMOUS: Nootropic Tour De Force",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -86,10 +86,10 @@
     {
         "handle": "autophagy",
         "featuredImage": { "url": "/images/autophagy-thumbnail.jpeg" },
-        "title": "",
+        "title": "AUTOPHAGY ACTIVATOR",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -98,10 +98,10 @@
     {
         "handle": "ekg",
         "featuredImage": { "url": "/images/ekg-thumbnail.jpeg" },
-        "title": "",
+        "title": "EKG: Cardio Protective",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -110,10 +110,10 @@
     {
         "handle": "force-field",
         "featuredImage": { "url": "/images/forcefield-thumbnail.jpeg" },
-        "title": "",
+        "title": "FORCE FIELD: Emf / Radiation Blocker",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -122,22 +122,22 @@
     {
         "handle": "glucose-blocker",
         "featuredImage": { "url": "/images/glucoseblocker-thumbnail.jpeg" },
-        "title": "",
+        "title": "Glucose Blocker",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
         "categories": ["detoxification-and-organ-health"]
     },
     {
-        "handle": "helicobacter-pylori",
+        "handle": "helico",
         "featuredImage": { "url": "/images/helicobacter-thumbnail.jpeg" },
-        "title": "",
+        "title": "HELICO: Helicobacter Pylori Destroyer",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -146,10 +146,10 @@
     {
         "handle": "hypnotic",
         "featuredImage": { "url": "/images/hypnotic-thumbnail.jpeg" },
-        "title": "",
+        "title": "HYPNOTIC: Sleep Formula",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -158,10 +158,10 @@
     {
         "handle": "jing-force",
         "featuredImage": { "url": "/images/jingforce-thumbnail.jpeg" },
-        "title": "",
+        "title": "JING FORCE: Kidney Restoration Tonic",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -170,10 +170,10 @@
     {
         "handle": "liver-regenerator",
         "featuredImage": { "url": "/images/liverregenerator-thumbnail.jpg" },
-        "title": "",
+        "title": "LIVER REGENERATOR: Master Hepatoprotective Formula",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -182,10 +182,10 @@
     {
         "handle": "paraslayer",
         "featuredImage": { "url": "/images/paraslayer-thumbnail.jpeg" },
-        "title": "",
+        "title": "PARASLAYER: Antihelmintic",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -194,10 +194,10 @@
     {
         "handle": "plush",
         "featuredImage": { "url": "/images/plush-thumbnail.jpeg" },
-        "title": "",
+        "title": "PLUSH: Beauty Blend",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -206,10 +206,10 @@
     {
         "handle": "purge",
         "featuredImage": { "url": "/images/purge-thumbnail.jpeg" },
-        "title": "",
+        "title": "PURGE",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -218,10 +218,10 @@
     {
         "handle": "sabretooth",
         "featuredImage": { "url": "/images/sabretooth-thumbnail.jpeg" },
-        "title": "",
+        "title": "SABRETOOTH: Tooth Decar & Gum Disease Destroyer",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -230,10 +230,10 @@
     {
         "handle": "senolytic",
         "featuredImage": { "url": "/images/senolytic-thumbnail.jpeg" },
-        "title": "",
+        "title": "SENOLYTIC: Zombie Cell Killer",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -242,10 +242,10 @@
     {
         "handle": "superhairformula",
         "featuredImage": { "url": "/images/supertonichair-thumbnail.jpeg" },
-        "title": "",
+        "title": "SUPER TONIC HAIR",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -254,10 +254,10 @@
     {
         "handle": "thrombolytic",
         "featuredImage": { "url": "/images/thrombolytic-thumbnail.jpeg" },
-        "title": "",
+        "title": "THROM THE DESTROYER: Thrombolytic Blood Clot Destroyer",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -266,10 +266,10 @@
     {
         "handle": "titanium",
         "featuredImage": { "url": "/images/titanium-thumbnail.jpeg" },
-        "title": "",
+        "title": "TITANIUM: Osteogenic Formula For Supreme Bone Health",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -278,10 +278,10 @@
     {
         "handle": "victorious",
         "featuredImage": { "url": "/images/victorious-thumbnail.jpeg" },
-        "title": "",
+        "title": "VICTORIOUS: Virus Annhilator",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -290,10 +290,10 @@
     {
         "handle": "original",
         "featuredImage": { "url": "/images/original-thumbnail.png" },
-        "title": "",
+        "title": "ORIGIN: The Original Full Spectrum Formula",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "100",
             "currencyCode": "USD"
           }
         },
@@ -302,10 +302,10 @@
     {
         "handle": "supernova",
         "featuredImage": { "url": "/images/supernova-thumbnail.jpg" },
-        "title": "",
+        "title": "SUPERNOVA",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -314,10 +314,10 @@
     {
         "handle": "thermo",
         "featuredImage": { "url": "/images/thermo-thumbnail.jpeg" },
-        "title": "",
+        "title": "THERMO",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -326,10 +326,10 @@
     {
         "handle": "spice",
         "featuredImage": { "url": "/images/spice200-thumbnail.jpeg" },
-        "title": "",
+        "title": "SPICE: Polyphenol Powerhouse",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -338,10 +338,10 @@
     {
         "handle": "peel",
         "featuredImage": { "url": "/images/peel200-thumbnail.png" },
-        "title": "",
+        "title": "PEEL: Flavanoid Powerhouse",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -350,10 +350,10 @@
     {
         "handle": "thunder",
         "featuredImage": { "url": "/images/thunder-thumbnail.jpeg" },
-        "title": "",
+        "title": "THUNDER",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -362,10 +362,10 @@
     {
         "handle": "shilajit",
         "featuredImage": { "url": "/images/shilajit-thumbnail.png" },
-        "title": "",
+        "title": "SHILAJIT: Destroyer Of Weakness",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -374,10 +374,10 @@
     {
         "handle": "niagra",
         "featuredImage": { "url": "/images/niagra-thumbnail.jpg" },
-        "title": "",
+        "title": "NIAGRA",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -386,10 +386,10 @@
     {
         "handle": "nebula",
         "featuredImage": { "url": "/images/nebula-thumbnail.jpg" },
-        "title": "",
+        "title": "NEBULA",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -398,10 +398,10 @@
     {
         "handle": "acb",
         "featuredImage": { "url": "/images/acb-thumbnail.jpeg" },
-        "title": "",
+        "title": "ACB",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -410,10 +410,10 @@
     {
         "handle": "apigenin",
         "featuredImage": { "url": "/images/apigenin-thumbnail.jpeg" },
-        "title": "",
+        "title": "APIGENIN",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -422,10 +422,10 @@
     {
         "handle": "matcha",
         "featuredImage": { "url": "/images/matcha-thumbnail.jpg" },
-        "title": "",
+        "title": "MATCHA: Ceremonial Grade Green Tea",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "250",
             "currencyCode": "USD"
           }
         },
@@ -434,10 +434,10 @@
     {
         "handle": "luteolin",
         "featuredImage": { "url": "/images/luteolin-thumbnail.jpg" },
-        "title": "",
+        "title": "LUTEOLIN",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "275",
             "currencyCode": "USD"
           }
         },
@@ -446,10 +446,10 @@
     {
         "handle": "seven-sages",
         "featuredImage": { "url": "/images/sevensages-thumbnail.jpg" },
-        "title": "",
+        "title": "SEVEN SAGES",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "350",
             "currencyCode": "USD"
           }
         },
@@ -458,10 +458,10 @@
     {
         "handle": "pine-pollen",
         "featuredImage": { "url": "/images/pinepollen-thumbnail.png" },
-        "title": "",
+        "title": "PINE POLLEN",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "250",
             "currencyCode": "USD"
           }
         },
@@ -470,10 +470,10 @@
     {
         "handle": "samples",
         "featuredImage": { "url": "/images/samples-thumbnail.jpg" },
-        "title": "",
+        "title": "200:1 SAMPLES",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "100",
             "currencyCode": "USD"
           }
         },
@@ -482,10 +482,10 @@
     {
         "handle": "beauty-sampler",
         "featuredImage": { "url": "/images/beautycombo-thumbnail.jpeg" },
-        "title": "",
+        "title": "BEAUTY SAMPLER (Hair, Skin, Nails, Weightloss)",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "395",
             "currencyCode": "USD"
           }
         },
@@ -494,10 +494,10 @@
     {
         "handle": "megacombo",
         "featuredImage": { "url": "/images/25blendcombo-thumbnail.jpeg" },
-        "title": "",
+        "title": "25 BLEND MEGA COMBO (Save 59%)",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "2595",
             "currencyCode": "USD"
           }
         },
@@ -506,10 +506,10 @@
     {
         "handle": "acb-combo-featuring-super-ultimate-sampler-2001-peel-spice",
         "featuredImage": { "url": "/images/10blendcombo-thumbnail.jpeg" },
-        "title": "",
+        "title": "ACB (10 Blend) 'VITAL FORCE' COMBO - Save 57%",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "995",
             "currencyCode": "USD"
           }
         },
@@ -518,10 +518,10 @@
     {
         "handle": "challengecombo",
         "featuredImage": { "url": "/images/challengecombo-thumbnail.jpeg" },
-        "title": "",
+        "title": "CHALLENGE COMBO ESSENTIALS - Save 56%",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "650",
             "currencyCode": "USD"
           }
         },
@@ -530,10 +530,10 @@
     {
         "handle": "monthlyspecial",
         "featuredImage": { "url": "/images/18blendcombo-thumbnail.jpeg" },
-        "title": "",
+        "title": "JULY SPECIAL! 18 Blend Combo Sampler",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "777",
             "currencyCode": "USD"
           }
         },
@@ -542,10 +542,10 @@
     {
         "handle": "peelandspicecombopack",
         "featuredImage": { "url": "/images/peelspicecombo-thumbnail.png" },
-        "title": "",
+        "title": "PEEL & SPICE COMBO 200:1",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "395",
             "currencyCode": "USD"
           }
         },
@@ -554,10 +554,10 @@
     {
         "handle": "spiceandpeelcombo",
         "featuredImage": { "url": "/images/peelspicecombo201-thumbnail.jpg" },
-        "title": "",
+        "title": "SPICE & PEEL 20:1 COMBO - Save 33%",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "100",
             "currencyCode": "USD"
           }
         },
@@ -566,10 +566,10 @@
     {
         "handle": "helico-paraslayer-combo",
         "featuredImage": { "url": "/images/stomachresetcombo-thumbnail.jpg" },
-        "title": "",
+        "title": "STOMACH RESET COMBO",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "495",
             "currencyCode": "USD"
           }
         },
@@ -578,10 +578,10 @@
     {
         "handle": "seven-sages-trinity-combo-bigsize",
         "featuredImage": { "url": "/images/sevensagestrinity-thumbnail.jpeg" },
-        "title": "",
+        "title": "SEVEN SAGES / TRINIY COMBO",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "495",
             "currencyCode": "USD"
           }
         },
@@ -590,10 +590,10 @@
     {
         "handle": "super-ultimate-sampler-pack-sevensages",
         "featuredImage": { "url": "/images/ultimatesampler-thumbnail.jpeg" },
-        "title": "",
+        "title": "SUPER ULTIMATE SAMPLER PACK w/ SEVEN SAGES",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "395",
             "currencyCode": "USD"
           }
         },
@@ -602,10 +602,10 @@
     {
         "handle": "triple-200-combo-mix",
         "featuredImage": { "url": "/images/triple200combo-thumbnail.jpeg" },
-        "title": "",
+        "title": "TRIPLE 200 COMBO",
         "priceRange": {
           "maxVariantPrice": {
-            "amount": "70",
+            "amount": "600",
             "currencyCode": "USD"
           }
         },
