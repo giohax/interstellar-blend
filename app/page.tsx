@@ -1,7 +1,32 @@
 "use client"
-import BoltIcon from '@/components/icons/bolt';
-import ScaleIcon from '@/components/icons/scale';
-import SunglassesIcon from '@/components/icons/sunglasses';
+import IconScaleBalanced from '@/components/icons/balance';
+import IconBrain from '@/components/icons/brain';
+import IconCell from '@/components/icons/cell';
+import IconDna from '@/components/icons/dna';
+import Icon208EyePlus from '@/components/icons/eye';
+import IconFastBackward from '@/components/icons/fast-backward';
+import IconFire from '@/components/icons/fire';
+import IconMoodHappySolid from '@/components/icons/happy';
+import IconHeartPulse from '@/components/icons/heart-pulse';
+import IconLungs from '@/components/icons/lungs';
+import IconBriefcaseMedical from '@/components/icons/medical-briefcase';
+import IconMoleculer from '@/components/icons/molecule';
+import IconBackupRestore from '@/components/icons/restore';
+import IconPersonRunning from '@/components/icons/running';
+import IconShieldFillMinus from '@/components/icons/shield-minus';
+import IconShieldPlus from '@/components/icons/shield-plus';
+import IconShieldSword from '@/components/icons/shield-sword';
+import IconSpeedFill from '@/components/icons/speed';
+import IconStopCircleFill from '@/components/icons/stop';
+import IconArmFlex from '@/components/icons/strong';
+import IconSunFill from '@/components/icons/sun';
+import IconSword from '@/components/icons/sword';
+import IconBxTargetLock from '@/components/icons/target';
+import IconFaceTired from '@/components/icons/tired';
+import AttributeCard from 'components/cards/attribute-card';
+import BoltIcon from 'components/icons/bolt';
+import ScaleIcon from 'components/icons/scale';
+import SunglassesIcon from 'components/icons/sunglasses';
 import Link from 'next/link';
 import { MouseEvent, useRef } from 'react'
 
@@ -130,6 +155,36 @@ export default function Home() {
                   </p>
                 </div>
               </div>
+            </div>
+
+            <h1 className="font-bold text-xl font-vandiana my-8">And more</h1>
+
+
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl">
+              <AttributeCard title={"Accelerate Hair Growth"} icon={<IconSpeedFill className="h-6 w-6"/>}/>
+              <AttributeCard title={"Restore Insulin Sensitivity"} icon={<IconBackupRestore className="h-6 w-6"/>}/>
+              <AttributeCard title={"Enhance Libido & Stamina"} icon={<IconFire className="h-6 w-6"/>}/>
+              <AttributeCard title={"Preserve & Protect Eyesight"} icon={<Icon208EyePlus className="h-6 w-6"/>}/>
+              <AttributeCard title={"Increase Energy & Endurance"} icon={<IconPersonRunning className="h-6 w-6"/>}/>
+              <AttributeCard title={"Promote Radiant Complexion"} icon={<IconSunFill className="h-6 w-6"/>}/>
+              <AttributeCard title={"Resolve Acne, Eczema, Psoriasis"} icon={<IconBriefcaseMedical className="h-6 w-6"/>}/>
+              <AttributeCard title={"Reduce Inflammation & Pain"} icon={<IconShieldFillMinus className="h-6 w-6"/>}/>
+              <AttributeCard title={"Amplify Memory & Cognition"} icon={<IconBrain className="h-6 w-6"/>}/>
+              <AttributeCard title={"Improve Cardiovascular Function"} icon={<IconLungs className="h-6 w-6"/>}/>
+              <AttributeCard title={"Burn Fat & Define Muscle"} icon={<IconArmFlex className="h-6 w-6"/>}/>
+              <AttributeCard title={"Elevate Mood"} icon={<IconMoodHappySolid className="h-6 w-6"/>}/>
+              <AttributeCard title={"Combat Fatigue"} icon={<IconFaceTired className="h-6 w-6"/>}/>
+              <AttributeCard title={"Boost Immunity"} icon={<IconShieldPlus className="h-6 w-6"/>}/>
+              <AttributeCard title={"Super Antioxidant"} icon={<IconShieldSword className="h-6 w-6"/>}/>
+              <AttributeCard title={"Balance Hormones"} icon={<IconScaleBalanced className="h-6 w-6"/>}/>
+              <AttributeCard title={"Preserve Telomere Length"} icon={<IconDna className="h-6 w-6"/>}/>
+              <AttributeCard title={"Neutralize Oxidative Stress"} icon={<IconMoleculer className="h-6 w-6"/>}/>
+              <AttributeCard title={"Inhibit mTOR"} icon={<IconStopCircleFill className="h-6 w-6"/>}/>
+              <AttributeCard title={"Regulate BP & Cholesterol"} icon={<IconHeartPulse className="h-6 w-6"/>}/>
+              <AttributeCard title={"Obliterate Depression and Anxiety"} icon={<IconSword className="h-6 w-6"/>}/>
+              <AttributeCard title={"Inhibit/Reverse Gray Hair"} icon={<IconFastBackward className="h-6 w-6"/>}/>
+              <AttributeCard title={"Cellular Regenration"} icon={<IconCell className="h-6 w-6"/>}/>
+              <AttributeCard title={"Eliminate Allergies"} icon={<IconBxTargetLock className="h-6 w-6"/>}/>
             </div>
             <div className="my-14 flex items-center justify-center flex-col">
               <Link href="/search" className="bg-white hover:bg-red-500 hover:text-white text-black text-md lg:text-lg font-bold py-3 px-6 w-full md:w-64 rounded-full shadow-lg text-center font-vandiana cursor-pointer">SHOP NOW</Link>
