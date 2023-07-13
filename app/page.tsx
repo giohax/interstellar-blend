@@ -183,7 +183,7 @@ export default function Home() {
               <AttributeCard title={"Regulate BP & Cholesterol"} icon={<IconHeartPulse className="h-6 w-6"/>}/>
               <AttributeCard title={"Obliterate Depression and Anxiety"} icon={<IconSword className="h-6 w-6"/>}/>
               <AttributeCard title={"Inhibit/Reverse Gray Hair"} icon={<IconFastBackward className="h-6 w-6"/>}/>
-              <AttributeCard title={"Cellular Regenration"} icon={<IconCell className="h-6 w-6"/>}/>
+              <AttributeCard title={"Cellular Regeneration"} icon={<IconCell className="h-6 w-6"/>}/>
               <AttributeCard title={"Eliminate Allergies"} icon={<IconBxTargetLock className="h-6 w-6"/>}/>
             </div>
             <div className="my-14 flex items-center justify-center flex-col">
