@@ -12,7 +12,13 @@ function Particles() {
         }
     })
 
-    return <OrbitControls ref={controlsRef} args={[camera, gl.domElement]} />
+    return <OrbitControls 
+                ref={controlsRef}
+                args={[camera, gl.domElement]}             
+                enableZoom
+                minDistance={1}  // minimum zoom distance
+                maxDistance={500}  // maximum zoom distance
+            />
 }
 
 const SpaceBackground: React.FC = () => {
