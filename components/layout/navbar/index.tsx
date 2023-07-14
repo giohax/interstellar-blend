@@ -9,6 +9,7 @@ import SearchIcon from "components/icons/search";
 
 
 
+
 export default function Navbar() {
 
 
@@ -19,12 +20,12 @@ export default function Navbar() {
             <div className="">
                 <MobileMenu />
             </div>
-            <div className="absolute inset-x-0 text-center">
+            <div className="absolute left-0 right-0">
                 {
-                    pathname !== '/' && <h1 className="font-vandiana font-bold text-md lg:text-lg">Interstellar Blends</h1>
+                    pathname !== '/' && <Image src="/interstellar-logo.jpg" height={25} width={25} alt="logo" className="mx-auto block" />
                 }
             </div>
-            <div className="flex space-x-2 lg:space-x-4">
+            <div className="flex space-x-6">
                 <SearchIcon className="h-6" />
                 <CartIcon/>
             </div>
