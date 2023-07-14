@@ -42,31 +42,31 @@ export default function MobileMenu() {
                         leaveFrom="translate-x-0"
                         leaveTo="translate-x-[-100%]"
                     >
-                        <Dialog.Panel className="fixed bottom-0 left-0 right-0 top-0 flex h-full w-full flex-col pb-6 bg-black">
-                        <div className="p-4">
-                            <button
-                                className="mb-4"
-                                onClick={closeMobileMenu}
-                                aria-label="Close mobile menu"
-                                data-testid="close-mobile-menu"
-                            >
-                                <CloseIcon className="h-6" />
-                            </button>
-                            <ul className="flex flex-col items-center space-y-8 text-center">
-                                <li>
-                                    <Link onClick={closeMobileMenu} className="rounded-lg py-1 text-2xl font-bold font-vandiana text-center transition-colors hover:text-gray-500 text-white" href={"/"}>INTERSTELLAR BLEND</Link>
-                                </li>
-                                <li>
-                                    <Link onClick={closeMobileMenu} className="rounded-lg py-1 text-2xl font-bold font-vandiana text-center transition-colors hover:text-gray-500 text-white" href={"/search"}>SHOP</Link>
-                                </li>
-                                <li>
-                                    <Link onClick={closeMobileMenu} className="rounded-lg py-1 text-2xl font-bold font-vandiana text-center transition-colors hover:text-gray-500 text-white" href={""}>RESOURCES</Link>
-                                </li>
-                                <li>
-                                    <Link onClick={closeMobileMenu} className="rounded-lg py-1 text-2xl font-bold font-vandiana text-center transition-colors hover:text-gray-500 text-white" href={""}>TELEGRAM</Link>
-                                </li>
-                            </ul>
-                        </div>
+                        <Dialog.Panel className="fixed bottom-0 left-0 right-0 top-0 flex h-full w-2/3 lg:w-2/5 flex-col pb-6 pr-10 bg-transparent backdrop-blur-sm">
+                            <div className="p-4">
+                                <button
+                                    className="mb-4"
+                                    onClick={closeMobileMenu}
+                                    aria-label="Close mobile menu"
+                                    data-testid="close-mobile-menu"
+                                >
+                                    <CloseIcon className="h-6" />
+                                </button>
+                                <ul className="flex flex-col items-end space-y-8">
+                                    <li>
+                                        <Link onClick={closeMobileMenu} className="rounded-lg py-1 text-lg font-bold font-vandiana transition-colors hover:text-gray-500 text-white" href={"/"}>INTERSTELLAR BLEND</Link>
+                                    </li>
+                                    <li>
+                                        <Link onClick={closeMobileMenu} className="rounded-lg py-1 text-lg font-bold font-vandiana transition-colors hover:text-gray-500 text-white" href={"/search"}>SHOP</Link>
+                                    </li>
+                                    <li>
+                                        <Link onClick={closeMobileMenu} className="rounded-lg py-1 text-lg font-bold font-vandiana transition-colors hover:text-gray-500 text-white" href={""}>RESOURCES</Link>
+                                    </li>
+                                    <li>
+                                        <Link onClick={closeMobileMenu} className="rounded-lg py-1 text-lg font-bold font-vandiana transition-colors hover:text-gray-500 text-white" href={""}>TELEGRAM</Link>
+                                    </li>
+                                </ul>
+                            </div>
                         </Dialog.Panel>
                     </Transition.Child>
                 </Dialog>
