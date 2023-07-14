@@ -14,7 +14,7 @@ export default function Navbar() {
     const pathname = usePathname()
     
     return (
-        <nav className="relative flex items-center justify-between p-4 lg:px-6 fixed z-10 max-w-8xl mx-auto h-28"> 
+        <nav className="relative flex items-center justify-between p-4 lg:px-6 fixed z-10 max-w-8xl mx-auto lg:h-28"> 
             <div className="">
                 <MobileMenu />
             </div>

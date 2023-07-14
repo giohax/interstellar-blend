@@ -49,7 +49,7 @@ export default function Home() {
 
       <SpaceBackground />
 
-      <div className="flex items-center flex-col mt-32 px-4">
+      <div className="flex items-center flex-col mt-12 md:mt-32 px-4">
         <h1 className="text-red-500 text-4xl lg:text-6xl font-bold font-vandiana text-center leading-none">INTERSTELLAR BLEND</h1>
         <h2 className="text-white text-1xl lg:text-2xl font-bold font-vandiana text-center custom-subtitle-shadow mb-8">BECOME LIMITLESS WITH OUR ANTI-AGING HERBS</h2>
           <SearchEngine />
