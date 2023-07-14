@@ -10,6 +10,7 @@ export default function SearchEngine({className}:{className?:string}) {
                 autoComplete="off"
                 className="w-full pl-10 pr-4 py-3 text-black bg-black bg-opacity-50 text-gray-100 rounded-lg"
                 style={{ backdropFilter: 'blur(10px)' }}
+                onFocus={(event)=>event.preventDefault()}
             />
             <div className="absolute left-0 top-0 ml-3 flex h-full items-center">
                 <SearchIcon className="h-5" />
