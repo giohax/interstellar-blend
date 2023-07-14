@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       colors: {
         'custom-black': '#0A0A0A',
+        'translucent': 'rgba(255, 255, 255, 0.5)'
       },
       letterSpacing: {
         tighter: '-.05em',

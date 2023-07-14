@@ -30,7 +30,6 @@ export default function RootLayout({
         <Suspense>
           <main>{children}</main>
         </Suspense>
-        <Footer />
       </body>
     </html>
   )
