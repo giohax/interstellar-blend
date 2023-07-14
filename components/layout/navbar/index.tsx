@@ -19,6 +19,9 @@ export default function Navbar() {
                 <MobileMenu />
             </div>
             <div className="">
+                {
+                    pathname !== '/' && <h1 className="font-vandiana font-bold text-lg lg:text-xl">Interstellar Blends</h1>
+                }
             </div>
             <div className="">
                 <CartIcon/>
