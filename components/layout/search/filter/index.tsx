@@ -21,7 +21,7 @@ function FilterItemList({list}: {list: Category[]}) {
 export default function FilterList({list, title }: { list: Category[]; title: string }) {
     return (
         <>
-            <nav className="col-span-2 w-full flex-none px-6 py-2 md:py-4 md:pl-10">
+            <nav className="col-span-2 w-full flex-none px-0 md:px-6 py-2 md:py-4 md:pl-10">
                 <h3 className="hidden font-semibold text-white md:block">{title}</h3>
                 <ul className="hidden md:block">
                     <FilterItemList list={list} />

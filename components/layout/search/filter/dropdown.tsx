@@ -44,10 +44,11 @@ export default function FilterItemDropdown({ list }: { list: Category[] }) {
         onClick={() => {
           setOpenSelect(!openSelect);
         }}
-        className="flex w-full items-center justify-between rounded border border-black/30 px-4 py-2 text-sm dark:border-white/30"
+        className="flex w-full items-center justify-start px-4 py-2 text-sm space-x-2 "
       >
+        <Caret className="h-5 rotate-90" />
         <div>{active}</div>
-        <Caret className="h-4 rotate-90" />
+        
       </div>
       {openSelect && (
         <div
