@@ -44,7 +44,7 @@ export default function Home() {
   return (
 
 
-    <div className="relative flex flex-col select-none">
+    <div className="relative flex flex-col select-none overflow:hidden">
 
 
       <SpaceBackground />
