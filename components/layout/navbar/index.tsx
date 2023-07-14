@@ -5,6 +5,7 @@ import Search from "./search";
 import CartIcon from "components/icons/cart";
 import MobileMenu from "./mobile-menu";
 import { usePathname } from "next/navigation";
+import SearchIcon from "components/icons/search";
 
 
 
@@ -18,12 +19,13 @@ export default function Navbar() {
             <div className="">
                 <MobileMenu />
             </div>
-            <div className="">
+            <div className="absolute inset-x-0 text-center">
                 {
-                    pathname !== '/' && <h1 className="font-vandiana font-bold text-lg lg:text-xl">Interstellar Blends</h1>
+                    pathname !== '/' && <h1 className="font-vandiana font-bold text-md lg:text-lg">Interstellar Blends</h1>
                 }
             </div>
-            <div className="">
+            <div className="flex space-x-2 lg:space-x-4">
+                <SearchIcon className="h-6" />
                 <CartIcon/>
             </div>
         </nav>
