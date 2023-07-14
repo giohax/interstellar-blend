@@ -54,7 +54,7 @@ export default function MobileMenu() {
                                 </button>
                                 <ul className="flex flex-col items-end space-y-8 text-right">
                                     <li>
-                                        <Link onClick={closeMobileMenu} className="rounded-lg py-1 text-lg font-bold font-vandiana transition-colors hover:text-gray-500 text-white" href={"/"}>INTERSTELLAR BLEND</Link>
+                                        <Link onClick={closeMobileMenu} className="rounded-lg py-1 text-lg font-bold font-vandiana transition-colors hover:text-gray-500 text-white" href={"/"}>HOME</Link>
                                     </li>
                                     <li>
                                         <Link onClick={closeMobileMenu} className="rounded-lg py-1 text-lg font-bold font-vandiana transition-colors hover:text-gray-500 text-white" href={"/search"}>SHOP</Link>
