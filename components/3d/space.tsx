@@ -26,7 +26,7 @@ function Particles() {
 const SpaceBackground: React.FC = () => {
     return (
         <Canvas style={{ position: "fixed", top: 0, left: 0 }}>
-            {/* <pointLight position={[10, 10, 10]} /> */}
+            
             <Stars
                 radius={0} // Radius of the inner sphere (default=100)
                 depth={250} // Depth of area where stars should fit (default=50)
@@ -36,6 +36,10 @@ const SpaceBackground: React.FC = () => {
                 fade // Faded dots (default=false)
             />
             <Particles />
+
+            <Suspense fallback={null}>
+            <Blackhole/>
+            </Suspense>
         </Canvas>
     )
 }
