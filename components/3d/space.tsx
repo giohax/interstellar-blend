@@ -1,6 +1,6 @@
 import { Canvas, useFrame, extend, useThree } from '@react-three/fiber'
 import { Stars, OrbitControls } from '@react-three/drei'
-import React, { useRef } from 'react'
+import React, { Suspense, useRef } from 'react'
 import Planet from './planet'
 import Blackhole from './blackhole'
 
@@ -14,15 +14,15 @@ function Particles() {
         }
     })
 
-    return <OrbitControls 
-                ref={controlsRef}
-                args={[camera, gl.domElement]}             
-                enableZoom
-                minDistance={1}  // minimum zoom distance
-                maxDistance={500}  // maximum zoom distance
-            />
+    return <OrbitControls
+        ref={controlsRef}
+        args={[camera, gl.domElement]}
+        enableZoom
+        minDistance={1}  // minimum zoom distance
+        maxDistance={500}  // maximum zoom distance
+    />
 }
- 
+
 const SpaceBackground: React.FC = () => {
     return (
         <Canvas style={{ position: "fixed", top: 0, left: 0 }}>
@@ -35,7 +35,6 @@ const SpaceBackground: React.FC = () => {
                 saturation={0} // Saturation 0-1 (default=0)
                 fade // Faded dots (default=false)
             />
-            <Blackhole />
             <Particles />
         </Canvas>
     )

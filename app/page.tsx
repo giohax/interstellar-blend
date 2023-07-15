@@ -30,7 +30,7 @@ import BoltIcon from 'components/icons/bolt';
 import ScaleIcon from 'components/icons/scale';
 import SunglassesIcon from 'components/icons/sunglasses';
 import Link from 'next/link';
-import { MouseEvent, useRef } from 'react'
+import { MouseEvent, Suspense, useRef } from 'react'
 
 export default function Home() {
   const sectionRef = useRef<HTMLDivElement>(null)
@@ -46,8 +46,9 @@ export default function Home() {
 
     <div className="relative flex flex-col select-none ">
 
+        <SpaceBackground />
 
-      <SpaceBackground />
+      
 
       <div className="flex items-center flex-col mt-12 md:mt-32 px-4 z-10">
         <h1 className="text-red-500 text-4xl lg:text-6xl font-bold font-vandiana text-center leading-none">INTERSTELLAR BLEND</h1>
