@@ -2,6 +2,7 @@ import { Canvas, useFrame, extend, useThree } from '@react-three/fiber'
 import { Stars, OrbitControls } from '@react-three/drei'
 import React, { Suspense, useRef } from 'react'
 import Blackhole from './blackhole'
+import { SkyBox } from './skybox'
 
 function Particles() {
     const controlsRef = useRef<any>()
@@ -35,7 +36,7 @@ const SpaceBackground: React.FC = () => {
                 fade // Faded dots (default=false)
             />
             <Particles />
-
+            <SkyBox />
             <Suspense fallback={null}>
             <Blackhole/>
             </Suspense>
