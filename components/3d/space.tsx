@@ -1,7 +1,6 @@
 import { Canvas, useFrame, extend, useThree } from '@react-three/fiber'
 import { Stars, OrbitControls } from '@react-three/drei'
 import React, { Suspense, useRef } from 'react'
-import Planet from './planet'
 import Blackhole from './blackhole'
 
 function Particles() {
