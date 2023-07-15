@@ -36,7 +36,10 @@ const SpaceBackground: React.FC = () => {
                 fade // Faded dots (default=false)
             />
             <Particles />
-            <SkyBox />
+            <Suspense fallback={null}>
+                <SkyBox />
+            </Suspense>
+            
             <Suspense fallback={null}>
             <Blackhole/>
             </Suspense>
