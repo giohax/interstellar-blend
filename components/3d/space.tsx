@@ -1,6 +1,8 @@
 import { Canvas, useFrame, extend, useThree } from '@react-three/fiber'
 import { Stars, OrbitControls } from '@react-three/drei'
 import React, { useRef } from 'react'
+import Planet from './planet'
+import Blackhole from './blackhole'
 
 function Particles() {
     const controlsRef = useRef<any>()
@@ -20,10 +22,11 @@ function Particles() {
                 maxDistance={500}  // maximum zoom distance
             />
 }
-
+ 
 const SpaceBackground: React.FC = () => {
     return (
         <Canvas style={{ position: "fixed", top: 0, left: 0 }}>
+            {/* <pointLight position={[10, 10, 10]} /> */}
             <Stars
                 radius={0} // Radius of the inner sphere (default=100)
                 depth={250} // Depth of area where stars should fit (default=50)
@@ -32,6 +35,7 @@ const SpaceBackground: React.FC = () => {
                 saturation={0} // Saturation 0-1 (default=0)
                 fade // Faded dots (default=false)
             />
+            <Blackhole />
             <Particles />
         </Canvas>
     )
